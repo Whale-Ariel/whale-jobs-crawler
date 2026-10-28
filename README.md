@@ -97,6 +97,8 @@ python3 run.py crawl --source all --full --refresh-existing
 
 指纹相同的不重复入队；正文变了的更新本地待同步记录。本工具保留历史记录，不根据官网列表自动判定下架。
 
+![TKXalv](https://upiclw.oss-cn-beijing.aliyuncs.com/uPic/TKXalv.png)
+
 ## 来源与招聘形式
 
 `--source all` 按这个顺序跑。`--portal all` 只跑该公司支持的形式。
