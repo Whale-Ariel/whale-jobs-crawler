@@ -4,6 +4,7 @@ import { Dropdown } from 'antd';
 import { useEffect, useState } from 'react';
 import { Link, Navigate, Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import { api, clearToken, getToken } from './api';
+import Charts from './pages/Charts';
 import JobTable from './pages/JobTable';
 import Login from './pages/Login';
 import Welcome from './pages/Welcome';
@@ -39,6 +40,8 @@ function Shell() {
           name: item.name,
         })),
       },
+      // 与「欢迎」「查询表格」同级。ProLayout 只认 children，这里不能改成 routes。
+      { path: '/charts', name: '图表分析' },
     ],
   };
   if (!getToken()) {
@@ -84,6 +87,8 @@ function Shell() {
     >
       <Routes>
         <Route path="/welcome" element={<Welcome />} />
+        {/* 图表分析：条形图、百分比堆叠条形图、百分比堆叠柱状图 */}
+        <Route path="/charts" element={<Charts />} />
         <Route path="/list/table-list" element={<SourceHome />} />
         <Route path="/list" element={<SourceHome />} />
         <Route path="/list/:source" element={<JobTable />} />

@@ -4,6 +4,7 @@ import { DatabaseSync } from 'node:sqlite';
 import { fileURLToPath } from 'node:url';
 import express from 'express';
 import { createServer as createViteServer } from 'vite';
+import { buildChartData } from './chart-data.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(root, '..');
@@ -109,6 +110,13 @@ api.get('/sources', requireUser, (_req, res) => {
       total: row.total,
     })),
   });
+});
+
+let chartCache;
+api.get('/charts', requireUser, (_req, res) => {
+  // 汇总要扫完整队列，结果缓存在进程内。重启服务后会按当前数据库重算。
+  if (!chartCache) chartCache = buildChartData(db, COMPANIES);
+  res.json({ success: true, ...chartCache });
 });
 
 api.get('/jobs', requireUser, (req, res) => {
