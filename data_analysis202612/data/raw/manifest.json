@@ -1,0 +1,18 @@
+{
+  "source": "/Users/luosen/WorkBuddy/JobsCrawler/state/pending_queue.db",
+  "snapshot": "/Users/luosen/WorkBuddy/JobsCrawler/data_analysis202612/data/raw/pending_queue_snapshot.db",
+  "created_at": "2026-10-28T17:07:40.124351+08:00",
+  "method": "SQLite backup API; source mode=ro; includes committed WAL",
+  "sha256": "29efa641bd5db92362ae97b75e226b994e5148a2bfe8cb442e397c0860f413ac",
+  "size_bytes": 335814656,
+  "schema_version": 5,
+  "integrity_check": "ok",
+  "table_rows": {
+    "pending_jobs": 40661,
+    "sqlite_sequence": 1,
+    "job_fingerprints": 40661,
+    "job_organizations": 1359,
+    "api_cache": 1076,
+    "recruitment_batches": 3
+  }
+}

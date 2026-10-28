@@ -1,0 +1,247 @@
+﻿job_key,title_clean,company_name,recruitment_type,predicted_type,correct
+307,数据科学家（客服方向）-抖音电商,字节跳动,society,society,True
+464,游戏资深数据分析（射击品类） - ZERO36工作室,字节跳动,society,society,True
+570,数据分析师（商城方向）-抖音电商,字节跳动,society,society,True
+714,资深数据分析师（用户增长方向）-抖音生活服务,字节跳动,society,society,True
+916,数据分析师（业务策略方向） - 抖音效果与创作,字节跳动,society,society,True
+1124,数据科学家-国际化广告产品,字节跳动,society,society,True
+1218,数据科学家-国际化广告产品,字节跳动,society,society,True
+1245,行政数据治理和数据分析-Administration Control and Analytics,字节跳动,society,campus,False
+1262,数据科学家-抖音电商,字节跳动,society,society,True
+1416,数据科学家（广告方向）-国际化,字节跳动,society,society,True
+1421,数据科学家-抖音电商（上海/北京）,字节跳动,society,society,True
+1424,数据科学家（数据能力中台方向）-抖音生活服务,字节跳动,society,society,True
+1602,数据科学家（大促活动方向）-抖音电商,字节跳动,society,society,True
+1617,数据科学家（平台策略）-抖音电商,字节跳动,society,society,True
+1983,战略商业分析师-抖音电商,字节跳动,society,society,True
+2014,数据科学家（增效度量方向）-抖音,字节跳动,society,society,True
+2129,数据科学家（多媒体性能）-TikTok,字节跳动,society,campus,False
+2354,今日头条数据分析师,字节跳动,society,society,True
+2553,数据分析师,字节跳动,society,society,True
+2610,数据科学家（客服方向）-抖音电商,字节跳动,society,society,True
+2724,数据科学家 - TikTok Shop,字节跳动,society,society,True
+2741,高级数据分析师（销售与经营分析）-抖音生活服务,字节跳动,society,society,True
+2806,国际电商-印尼商业分析师,字节跳动,society,society,True
+2807,数据分析师-番茄小说,字节跳动,society,society,True
+2960,高级数据分析师（综合分析方向）-抖音生活服务,字节跳动,society,society,True
+3219,数据分析师 - 抖音用户增长,字节跳动,society,campus,False
+3223,数据科学家（PGC-推荐策略） - TikTok,字节跳动,society,society,True
+3250,数据分析师（AI创新产品） - 抖音效果与创作,字节跳动,society,society,True
+3712,豆包AI大模型数据分析-火山方舟MaaS,字节跳动,society,society,True
+3722,AI数据分析师-集团信息系统,字节跳动,society,society,True
+3863,数据分析师（社交与互动游戏方向） - 抖音社交与互动,字节跳动,society,society,True
+3955,数据科学家（销售与经营分析）-抖音生活服务,字节跳动,society,society,True
+4047,数据分析师-TikTok用户增长,字节跳动,society,society,True
+4112,豆包AI大模型数据分析（MaaS） - 火山方舟,字节跳动,society,society,True
+4302,数据科学家（Lemon8）-TikTok,字节跳动,society,society,True
+4997,资深数据科学家-抖音电商,字节跳动,society,society,True
+5112,资深数据分析师-Parallel,字节跳动,society,society,True
+5325,数据分析师-飞书,字节跳动,society,society,True
+5508,数据分析师-飞书,字节跳动,society,society,True
+5646,数据科学家（北京） - TikTok直播,字节跳动,society,campus,False
+5715,数据科学家（销售与经营分析）-抖音生活服务,字节跳动,society,society,True
+5774,数据分析师-飞书,字节跳动,society,society,True
+5828,AI数据运营（数据分析方向）-国际化,字节跳动,society,society,True
+5847,数据分析师-飞书,字节跳动,society,society,True
+5999,人才渠道数据分析及系统运营专家（北京）,字节跳动,society,society,True
+6071,数据科学家-TikTok直播,字节跳动,society,society,True
+6309,资深数据分析师-飞书,字节跳动,society,society,True
+6462,数据分析师-TikTok用户增长,字节跳动,society,society,True
+6531,AI数据运营（数据分析方向）-国际化,字节跳动,society,society,True
+6553,数据科学家-剪映,字节跳动,society,society,True
+6675,风险感知与数据分析专家-抖音电商,字节跳动,society,society,True
+7270,高级数据科学家（量化建模方向） - TikTok用户增长,字节跳动,society,society,True
+7846,豆包AI大模型数据分析-火山方舟MaaS,字节跳动,society,society,True
+8076,数据分析工程师（供应链金融方向）,字节跳动,society,society,True
+8469,安全算法高级技术负责人/数据科学家 - 安全与风控,字节跳动,society,society,True
+8720,资深数据科学家（搜索方向）-TikTok,字节跳动,society,society,True
+8989,数据科学家（Pangle方向）-国际化广告产品,字节跳动,society,society,True
+9076,联网大模型数据科学交付专家 - AI数据与安全,字节跳动,society,society,True
+9173,数据科学家-抖音电商,字节跳动,society,society,True
+9229,数据科学家（多媒体性能）-TikTok,字节跳动,society,campus,False
+9232,数据科学家（多媒体性能）-TikTok,字节跳动,society,campus,False
+9607,数据挖掘工程师-TikTok用户增长,字节跳动,society,society,True
+9708,数据科学家（内容生态）-TikTok,字节跳动,society,society,True
+9931,数据分析师（搜索方向）-抖音电商,字节跳动,society,society,True
+9953,数据分析师（体验方向） - 抖音电商,字节跳动,society,society,True
+10056,PGC作者工具数据科学实习生-TikTok,字节跳动,campus,campus,True
+10182,数据分析实习生 - 抖音电商,字节跳动,campus,society,False
+10519,国际电商数据科学实习生 - TikTok Shop,字节跳动,campus,campus,True
+10552,US大促数据科学实习生 - TikTok Shop,字节跳动,campus,campus,True
+10590,CRM数据分析产品实习生 - 销售运营管理平台,字节跳动,campus,campus,True
+11228,商业分析与数据分析师（物流与供应链） - TikTok Shop,字节跳动,campus,society,False
+11443,战略商业分析实习生 - TikTok Shop,字节跳动,campus,campus,True
+11457,企业信息化与数据分析实习生 - 芯片研发,字节跳动,campus,campus,True
+11666,数据分析实习生 - TikTok Shop,字节跳动,campus,campus,True
+11710,数据科学（用户增长方向） - 抖音增长,字节跳动,campus,society,False
+11850,东南亚电商运营数据科学实习生 - TikTok Shop,字节跳动,campus,campus,True
+11895,达人数据科学实习生 - TikTok Shop,字节跳动,campus,campus,True
+11925,数据科学 - 抖音直播,字节跳动,campus,society,False
+11964,营销数据科学实习生 - TikTok Shop,字节跳动,campus,campus,True
+11985,数据分析（海外生活服务）实习生,字节跳动,campus,campus,True
+12026,商业分析实习生 - 抖音电商,字节跳动,campus,campus,True
+12029,AI数据科学实习生 - TikTok Shop,字节跳动,campus,campus,True
+12189,数据分析实习生-TikTok直播,字节跳动,campus,campus,True
+12193,印尼电商商业分析实习生 - TikTok Shop,字节跳动,campus,campus,True
+12248,数据分析Agent开发工程师 - 抖音,字节跳动,campus,campus,True
+12517,数据科学实习生 - TikTok Shop,字节跳动,campus,campus,True
+12599,商业分析（行业研究）实习生 - 广告业务,字节跳动,campus,campus,True
+12616,数据分析师 - 番茄小说,字节跳动,campus,society,False
+12702,用户增长数据科学实习生 - TikTok Shop,字节跳动,campus,campus,True
+12738,数据科学实习生-中国交易与广告,字节跳动,campus,campus,True
+12932,数据分析实习生 - TikTok Shop,字节跳动,campus,campus,True
+13023,商业分析实习生 - 广告业务,字节跳动,campus,campus,True
+13052,数据科学实习生 - 抖音体验,字节跳动,campus,campus,True
+13103,数据科学（运营分析）实习生 - TikTok Shop,字节跳动,campus,campus,True
+13136,泛商城推荐数据科学实习生 - TikTok Shop,字节跳动,campus,campus,True
+13223,数据科学实习生 - TikTok Shop,字节跳动,campus,campus,True
+13304,数据科学（推荐方向）实习生 - TikTok Shop,字节跳动,campus,campus,True
+13477,数据科学（产品分析）实习生 - TikTok Shop,字节跳动,campus,campus,True
+13795,拉美物流数据分析实习生 - TikTok Shop,字节跳动,campus,campus,True
+13862,东南亚电商运营数据科学实习生 - TikTok Shop,字节跳动,campus,campus,True
+13913,数据分析实习生-TikTok隐私安全,字节跳动,campus,campus,True
+14101,数据分析实习生 - TikTok Shop,字节跳动,campus,campus,True
+14222,数据科学实习生-剪映,字节跳动,campus,campus,True
+14354,商业分析实习生 - 广告业务,字节跳动,campus,campus,True
+14434,算法工程师（数据湖基础设施与数据分析方向） - 火山方舟,字节跳动,campus,campus,True
+14436,众包数据分析实习生-内容质量与数据服务平台,字节跳动,campus,campus,True
+14492,数据科学（社交与创作）实习生-数据科学,字节跳动,campus,campus,True
+14681,商业化数据科学实习生-商业变现,字节跳动,campus,campus,True
+14700,数据分析实习生-Aime,字节跳动,campus,campus,True
+14701,商业化数据科学实习生-商业变现,字节跳动,campus,campus,True
+14968,数据科学实习生-剪映,字节跳动,campus,campus,True
+15078,数据分析实习生-抖音搜索,字节跳动,campus,campus,True
+15334,数据科学实习生（用户增长）-TikTok,字节跳动,campus,campus,True
+15344,数据分析实习生-TikTok,字节跳动,campus,campus,True
+15788,数据科学实习生-剪映,字节跳动,campus,campus,True
+15847,商业化数据科学实习生-商业变现,字节跳动,campus,campus,True
+16160,大模型数据分析实习生 - 火山方舟,字节跳动,campus,campus,True
+16218,数据分析实习生-用户增长（User Growth）,字节跳动,campus,campus,True
+16485,搜推数据科学实习生 - TikTok Shop,字节跳动,campus,campus,True
+16545,数据科学实习生 - TikTok Shop,字节跳动,campus,campus,True
+16561,算法实习生（数据湖基础设施与数据分析方向） - 火山方舟,字节跳动,campus,campus,True
+16962,数据挖掘实习生-安全与风控,字节跳动,campus,campus,True
+17655,微信基础-数据分析师,腾讯,society,society,True
+17864,灰境行者-游戏数据分析师,腾讯,society,society,True
+18124,《三角洲行动》-数据分析（活动分析方向）,腾讯,society,society,True
+18172,企业微信-数据分析师,腾讯,society,society,True
+18211,企业微信-数据分析师,腾讯,society,society,True
+18490,智能体-数据分析工程师（数仓方向）-WorkBuddy,腾讯,society,society,True
+19404,淘天集团-高级商业分析师-AI产品,阿里巴巴,society,society,True
+19579,淘天集团-高级商业数据分析师-杭州,阿里巴巴,society,society,True
+19587,淘天集团-数据分析/数据科学专家-用户权益,阿里巴巴,society,society,True
+19720,天猫国际-供应链数据分析-杭州*,阿里巴巴,society,society,True
+20087,商业智能部-商业数据分析专家-金融方向,阿里巴巴,society,society,True
+20088,阿里国际站-数据科学家-杭州,阿里巴巴,society,society,True
+20240,阿里国际-质量管理数据分析-杭州,阿里巴巴,society,society,True
+20313,淘宝闪购-数据科学家-用户体验分析,阿里巴巴,society,society,True
+20482,淘宝闪购-数据科学专家-即时物流运力分析,阿里巴巴,society,society,True
+20559,淘宝闪购-商家策略运营-商业分析方向,阿里巴巴,society,society,True
+21303,Token Foundry-数据科学专家-Qwen基础模型,阿里巴巴,society,society,True
+21514,千问事业部-MOS 实验室-数据科学家-千问C端场景-杭州,阿里巴巴,society,society,True
+21564,千问事业部-数据科学专家-用户增长方向,阿里巴巴,society,society,True
+21633,千问事业部-商业数据分析师-用户运营方向-北京,阿里巴巴,society,society,True
+21727,千问事业部-商业数据分析师-千问AI创作线-北京/杭州,阿里巴巴,society,society,True
+24518,数据分析岗,京东,society,society,True
+25032,数据分析岗,京东,society,society,True
+25132,数据分析岗,京东,society,society,True
+25398,商业分析岗,京东,society,society,True
+25729,数据科学岗,京东,society,society,True
+25752,商业分析岗,京东,society,society,True
+25970,商业分析岗,京东,society,society,True
+26433,数据分析,京东,campus,society,False
+26532,歪马商业分析师（歪马鲜酒铺方向）,美团,society,society,True
+26540,无人机-资深商业分析师（竞争分析方向）,美团,society,society,True
+26556,销售数据分析（AI&奖金激励方向）,美团,society,society,True
+26587,外卖-商业分析师（补贴策略）,美团,society,society,True
+26677,商业分析师（用户方向）,美团,society,society,True
+26762,到餐-商业分析师（收入管理方向）,美团,society,society,True
+26778,商业分析师（供应链物流方向）,美团,society,society,True
+26962,商业分析师（信息流产品方向）-大众点评,美团,society,society,True
+27216,商业分析师-松鼠业务,美团,society,society,True
+27279,到餐-商业分析师（补贴策略方向）,美团,society,society,True
+27326,商业分析师（绩效管理方向）,美团,society,society,True
+27336,Keeta-资深商业分析师/经营分析专家,美团,society,society,True
+27337,Keeta-阿联酋商业分析专家,美团,society,society,True
+27340,Keeta-商业分析师（经营分析）,美团,society,society,True
+27438,社招-商业分析师-北京-食杂零售-小象事业部线下店分析,美团,society,society,True
+27996,战略管理部-商业分析师,美团,society,society,True
+28189,商业分析专家（商业化BP方向）,美团,society,society,True
+28194,商业分析Leader,美团,society,society,True
+28374,商业分析专家（仓配方向）,美团,society,society,True
+28590,智能体算法工程师（商业智能方向）,美团,society,society,True
+28638,小象超市-资深数据分析师,美团,society,society,True
+28753,美团外卖-商业分析师（新机会孵化方向）,美团,society,society,True
+28878,LongCat - 数据策略与数据科学算法研究员,美团,society,campus,False
+28911,商业分析师,美团,society,society,True
+28976,商业分析（经营分析方向）,美团,society,society,True
+29110,商业分析专家,美团,society,society,True
+29354,机器学习/数据挖掘算法工程师,美团,campus,society,False
+29526,Keeta-阿联酋商业分析实习生,美团,campus,campus,True
+29578,数据科学实习生,美团,campus,campus,True
+29696,实习-金服支付-商业分析师-北京,美团,campus,campus,True
+29836,数据挖掘和分析工程师（J71373）,百度,society,campus,False
+30126,高级商业分析师（J96060）,百度,society,society,True
+30136,商业分析师（J106536）,百度,society,society,True
+30164,商业分析师（J104533）,百度,society,society,True
+30264,资深商业分析师（J105662）,百度,society,society,True
+30586,数字人直播商业分析与规划（J77754）,百度,society,society,True
+30841,数据分析/数据科学家（AB实验）-【数据平台】,快手,society,campus,False
+30842,数据挖掘工程师（核心资产）-【数据平台】,快手,society,society,True
+30948,财务数据分析师,快手,society,society,True
+30951,商业分析专家,快手,society,society,True
+31050,商业分析专家（直客策略）-【生活服务】,快手,society,society,True
+31051,商业分析专家（用户方向）-【本地生活】,快手,society,society,True
+31052,商业分析师 （广告行业分析方向）-【生活服务】,快手,society,society,True
+31148,海外数据分析师-【KSIB】,快手,society,society,True
+31198,数据分析师（流量分析方向）-【电商】,快手,society,society,True
+31257,渠道电商策略运营 (业绩和商业分析方向)-【电商】,快手,society,society,True
+31344,数据分析师（生产/社交）-【主站】,快手,society,society,True
+31347,数据分析师（内容）-【主站】,快手,society,society,True
+31351,数据科学家(损益方向)-【主站】,快手,society,society,True
+31361,数据分析师（体验方向）-【电商】,快手,society,society,True
+31572,技术战略商业分析师（资源成本管理方向）-【研发线】,快手,society,society,True
+31707,数据挖掘工程师 —【可灵大模型团队】,快手,society,campus,False
+31780,商业分析师（渠道策略）-【商业化】,快手,society,society,True
+31875,数据分析,快手,society,society,True
+31902,数据分析师,快手,society,society,True
+33077,数据科学家,快手,campus,society,False
+33461,数据分析（海外）,哔哩哔哩,society,society,True
+33534,商业化-广告行业数据分析师,哔哩哔哩,society,society,True
+33663,资深数据分析师（海外业务 - 经营分析方向）,哔哩哔哩,society,society,True
+33750,资深数据分析师（直播方向）,哔哩哔哩,society,society,True
+33755,内容生态数据分析师,哔哩哔哩,society,society,True
+34299,营销实验室-数据科学,小红书,society,society,True
+34305,流量策略数据科学家,小红书,society,society,True
+35504,高级商业分析师（策略）,滴滴,society,society,True
+35527,数据分析师,滴滴,society,society,True
+35593,商业分析专家,滴滴,society,society,True
+36064,商业分析师-经分方向,滴滴,society,society,True
+36129,商业分析师,滴滴,society,society,True
+36259,商业分析专家,滴滴,society,society,True
+36275,商业分析专家,滴滴,society,society,True
+36278,滴滴商业分析专家（澳大利亚/日本/埃及网约车业务）,滴滴,society,society,True
+36379,地图数据分析专家/负责人,滴滴,society,society,True
+36412,商业分析师,滴滴,society,society,True
+36436,Data Scientist,滴滴,society,society,True
+36440,数据分析专家（珠海）,滴滴,society,society,True
+36592,商业分析专家（国际化出行）,滴滴,society,society,True
+36594,27届秋招-数据分析师,滴滴,campus,campus,True
+36621,27届秋招-数据分析师（国际化金融）,滴滴,campus,campus,True
+36645,27届秋招-商业分析顾问-两轮车,滴滴,campus,society,False
+37518,数据分析师(MJ036963),携程,society,society,True
+37702,数据分析师(MJ035403),携程,society,society,True
+38431,高级商业分析师,科大讯飞,society,society,True
+38646,电商运营经理-商业分析方向(J14410),科大讯飞,campus,society,False
+38911,资深游戏数据分析-源初之结,米哈游,society,society,True
+39009,资深游戏数据分析-Varsapura,米哈游,society,society,True
+39662,数据分析工程师,OPPO,society,society,True
+39752,数据分析经理,OPPO,society,society,True
+39960,电商-用户增长数据分析师,拼多多,society,society,True
+40228,数据分析师（物流风控方向）,拼多多,society,society,True
+40258,搜推数据分析师,拼多多,society,society,True
+40286,数据分析师（营销方向）,拼多多,society,society,True
+40357,数据分析师（物流方向）,拼多多,society,society,True
+40400,数据分析专家（智能客服）,拼多多,society,society,True
+40433,数据分析师,拼多多,society,society,True
+40557,数据分析师(支付财务方向),拼多多,society,society,True

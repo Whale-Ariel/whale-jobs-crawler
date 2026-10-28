@@ -1,0 +1,11 @@
+{
+  "server_start": "PASS",
+  "course_kernel": "PASS",
+  "notebooks_visible": [
+    "02_招聘结构与可视化分析.ipynb",
+    "01_数据分析基础与JSON结构化.ipynb",
+    "03_职位文本分析与技能特征.ipynb",
+    "04_岗位聚类与项目交付.ipynb"
+  ],
+  "server_closed_after_check": true
+}

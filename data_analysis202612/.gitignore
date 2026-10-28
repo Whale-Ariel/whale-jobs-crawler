@@ -1,0 +1,8 @@
+.venv/
+.runtime/
+.ipynb_checkpoints/
+__pycache__/
+data/raw/*.db
+data/raw/*.tmp
+data/processed/*.parquet
+data/processed/*.csv

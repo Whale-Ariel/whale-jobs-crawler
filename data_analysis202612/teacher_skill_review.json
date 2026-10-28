@@ -1,0 +1,22 @@
+{
+  "scope": "当前快照中15条命中片段的人工阅读；label=1仅确认该合并技能类别被提及，不代表必须要求；非盲评、非随机总体评估，不能据此估计精确率或召回率。",
+  "review_date": "2026-10-28",
+  "snapshot_sha256": "29efa641bd5db92362ae97b75e226b994e5148a2bfe8cb442e397c0860f413ac",
+  "rows": [
+    {"job_key":"9767","skill":"Python","human_label":1,"comment":"C/C++/Python等一种，属于可选语言集合，不是Python单项硬性要求"},
+    {"job_key":"36758","skill":"Python","human_label":1,"comment":"python/java/c++的一种或多种，明确提及"},
+    {"job_key":"10192","skill":"Python","human_label":1,"comment":"C/C++或Python，属于可选语言集合"},
+    {"job_key":"22789","skill":"SQL","human_label":1,"comment":"java/python/sql中一种或多种，明确提及"},
+    {"job_key":"8047","skill":"SQL","human_label":1,"comment":"熟练运用SQL、Python，明确提及"},
+    {"job_key":"31342","skill":"SQL","human_label":1,"comment":"有SQL能力加分，命中不应解释成硬性门槛"},
+    {"job_key":"35694","skill":"Java","human_label":1,"comment":"3年及以上Java研发经验，明确提及"},
+    {"job_key":"7780","skill":"Java","human_label":1,"comment":"开发语言如Golang/Python/Java，属于示例语言集合"},
+    {"job_key":"40248","skill":"Java","human_label":1,"comment":"Java/C++/Python任一，明确提及"},
+    {"job_key":"9328","skill":"JavaScript/TypeScript","human_label":1,"comment":"原词是TypeScript，按课程明确合并类别命中，不代表原文出现JavaScript"},
+    {"job_key":"11726","skill":"JavaScript/TypeScript","human_label":1,"comment":"原词是TypeScript，按合并类别命中，属于多语言可选项"},
+    {"job_key":"15286","skill":"JavaScript/TypeScript","human_label":1,"comment":"原文明确出现JavaScript"},
+    {"job_key":"15245","skill":"Excel","human_label":1,"comment":"SQL/Excel/R/Python/Tableau等工具，明确提及"},
+    {"job_key":"10771","skill":"Excel","human_label":1,"comment":"熟练使用Excel，明确提及"},
+    {"job_key":"1429","skill":"Excel","human_label":1,"comment":"熟练使用SQL、Excel，明确提及"}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "train_n": 745,
+  "test_n": 246,
+  "text_groups_overlap": 0,
+  "target": "原始招聘入口编码campus/society",
+  "evaluation_scope": "同快照分组留出，非跨公司/未来验证",
+  "scores": [
+    {
+      "model": "多数类基线",
+      "accuracy": 0.7276422764227642,
+      "macro_f1": 0.4211764705882353,
+      "test_n": 246
+    },
+    {
+      "model": "TF-IDF+逻辑回归",
+      "accuracy": 0.9186991869918699,
+      "macro_f1": 0.8974401734345034,
+      "test_n": 246
+    }
+  ]
+}
