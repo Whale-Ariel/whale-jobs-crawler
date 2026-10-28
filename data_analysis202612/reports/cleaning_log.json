@@ -1,0 +1,33 @@
+{
+  "raw_rows": 40661,
+  "clean_rows": 40661,
+  "rejected_json_rows": 0,
+  "duplicate_identity_rows": 0,
+  "identity_mismatches": {
+    "source": 0,
+    "job_id": 0,
+    "batch_id": 0,
+    "source_site": 0
+  },
+  "title_missing_rows": 0,
+  "text_missing_rows": 3,
+  "no_city_candidate_rows": 972,
+  "missing_publish_time_rows": 6470,
+  "unparseable_nonempty_publish_time_rows": 0,
+  "unparsed_or_missing_publish_time_rows": 6470,
+  "location_associations_by_level": {
+    "城市候选": 50430,
+    "省级或地区": 790,
+    "待核验": 176,
+    "区县待核验": 75
+  },
+  "actions": [
+    "隔离坏JSON",
+    "验证复合身份键",
+    "原文保留并新增清洗列",
+    "城市别名映射与地点层级标记",
+    "保留多城市",
+    "薪资学历不填0",
+    "复杂字段JSON序列化以稳定跨课传递"
+  ]
+}

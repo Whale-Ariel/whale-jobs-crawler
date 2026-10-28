@@ -1,0 +1,9 @@
+{
+  "representation_ari": 0.13930788162722285,
+  "query": "Python SQL 实验 因果推断 数据分析",
+  "retrieval_count": 8,
+  "top_retrieval_title": "数据科学 - TikTok研发",
+  "top_retrieval_cosine": 0.2629693349835188,
+  "boundary_jobs": 8,
+  "distance_is_probability": false
+}

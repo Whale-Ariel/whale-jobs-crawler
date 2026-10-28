@@ -1,0 +1,11 @@
+{
+  "focus_candidates": 1138,
+  "all_jobs": 40661,
+  "skills": 18,
+  "with_requirement": 40186,
+  "experience_extracted": 1794,
+  "focus_python_rate": 0.5843585237258347,
+  "focus_sql_rate": 0.7557117750439367,
+  "tfidf_features": 2212,
+  "manual_audit_rows": 54
+}

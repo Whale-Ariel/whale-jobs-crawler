@@ -1,0 +1,12 @@
+{
+  "initial_candidates": 1138,
+  "excluded_language": 16,
+  "candidate_jobs": 1122,
+  "unique_texts": 1028,
+  "selected_k": 3,
+  "silhouette_cosine": 0.03464433583158881,
+  "seed_ARI": 0.8969417291597604,
+  "svd_2d_variance": 0.03137246409468783,
+  "feature_count": 1678,
+  "random_seed": 42
+}

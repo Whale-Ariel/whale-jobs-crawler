@@ -1,0 +1,630 @@
+{
+  "passed": 156,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "快照行数等于清洗+隔离",
+      "status": "PASS"
+    },
+    {
+      "check": "完整职位身份键唯一",
+      "status": "PASS"
+    },
+    {
+      "check": "行键唯一且各课全量表守恒",
+      "status": "PASS"
+    },
+    {
+      "check": "源公司计数与清洗表一致（本快照无隔离）",
+      "status": "PASS"
+    },
+    {
+      "check": "快照完整性与哈希有效",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=37284",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=8520",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=7899",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=34040",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=36521",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=36012",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=3150",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=9050",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=37586",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=16009",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=27906",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=10632",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=23877",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=23800",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=39983",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=20693",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=4559",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=35370",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=5649",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=12186",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=19555",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=17851",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=11044",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=7466",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=5378",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=33304",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=348",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=15790",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=6604",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=15631",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=38430",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=20800",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=33544",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=28352",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=33244",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=22713",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=5581",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=17896",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=10815",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=8456",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=5031",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=37001",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=24880",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=18853",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=18892",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=27236",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=33297",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=14288",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=7464",
+      "status": "PASS"
+    },
+    {
+      "check": "原始标题可回溯 seq=39744",
+      "status": "PASS"
+    },
+    {
+      "check": "公司职位数之和等于全量职位",
+      "status": "PASS"
+    },
+    {
+      "check": "公司样本占比之和为1",
+      "status": "PASS"
+    },
+    {
+      "check": "公司内招聘类型占比之和为1",
+      "status": "PASS"
+    },
+    {
+      "check": "城市计数守恒于职位城市关联",
+      "status": "PASS"
+    },
+    {
+      "check": "每职位城市列表无重复",
+      "status": "PASS"
+    },
+    {
+      "check": "省级地点未进入城市榜",
+      "status": "PASS"
+    },
+    {
+      "check": "每城市岗位覆盖率不超过1",
+      "status": "PASS"
+    },
+    {
+      "check": "字典列表及复合字符串地名正确清洗",
+      "status": "PASS"
+    },
+    {
+      "check": "SQL和Java边界反例正确",
+      "status": "PASS"
+    },
+    {
+      "check": "技能中文邻接正例正确",
+      "status": "PASS"
+    },
+    {
+      "check": "工作年限不误取规划或上限",
+      "status": "PASS"
+    },
+    {
+      "check": "明确经验区间提取下限",
+      "status": "PASS"
+    },
+    {
+      "check": "技能共现矩阵对称",
+      "status": "PASS"
+    },
+    {
+      "check": "技能共现对角线等于命中数",
+      "status": "PASS"
+    },
+    {
+      "check": "所有技能列为0或1",
+      "status": "PASS"
+    },
+    {
+      "check": "合并文本提及是职责与要求的并集",
+      "status": "PASS"
+    },
+    {
+      "check": "教师参考核验15条且全部可回溯命中片段",
+      "status": "PASS"
+    },
+    {
+      "check": "聚类群规模之和等于合格候选数",
+      "status": "PASS"
+    },
+    {
+      "check": "聚类候选严格来自规则子集",
+      "status": "PASS"
+    },
+    {
+      "check": "群标签无遗漏",
+      "status": "PASS"
+    },
+    {
+      "check": "每群有3条代表职位",
+      "status": "PASS"
+    },
+    {
+      "check": "比较4个K且评估指标有效",
+      "status": "PASS"
+    },
+    {
+      "check": "聚类语言筛选数量守恒",
+      "status": "PASS"
+    },
+    {
+      "check": "正式模型不使用纯编号或标点词项",
+      "status": "PASS"
+    },
+    {
+      "check": "组织聚合关联仍保持一行一职位",
+      "status": "PASS"
+    },
+    {
+      "check": "组织关系数为非负整数",
+      "status": "PASS"
+    },
+    {
+      "check": "城市分摊加未识别城市守恒",
+      "status": "PASS"
+    },
+    {
+      "check": "北京折算数可从职位列表直接复核",
+      "status": "PASS"
+    },
+    {
+      "check": "折算数不大于覆盖数",
+      "status": "PASS"
+    },
+    {
+      "check": "累计贡献单调且最终为1",
+      "status": "PASS"
+    },
+    {
+      "check": "标准化覆盖率范围正确且有可比公司",
+      "status": "PASS"
+    },
+    {
+      "check": "百分点变化正确",
+      "status": "PASS"
+    },
+    {
+      "check": "长表行数等于候选技能命中关系数",
+      "status": "PASS"
+    },
+    {
+      "check": "长表职位技能关系唯一且来源范围正确",
+      "status": "PASS"
+    },
+    {
+      "check": "技能对数量为18选2",
+      "status": "PASS"
+    },
+    {
+      "check": "Python-SQL联合计数独立复核",
+      "status": "PASS"
+    },
+    {
+      "check": "Jaccard与条件概率的分母正确",
+      "status": "PASS"
+    },
+    {
+      "check": "Lift与独立预期比值一致",
+      "status": "PASS"
+    },
+    {
+      "check": "Python语境取值与证据对应",
+      "status": "PASS"
+    },
+    {
+      "check": "Python语境抽取没有丢失原始要求命中",
+      "status": "PASS"
+    },
+    {
+      "check": "SQL语境取值与证据对应",
+      "status": "PASS"
+    },
+    {
+      "check": "SQL语境抽取没有丢失原始要求命中",
+      "status": "PASS"
+    },
+    {
+      "check": "Excel语境取值与证据对应",
+      "status": "PASS"
+    },
+    {
+      "check": "Excel语境抽取没有丢失原始要求命中",
+      "status": "PASS"
+    },
+    {
+      "check": "实习标题对照标记不覆盖原入口编码",
+      "status": "PASS"
+    },
+    {
+      "check": "语境正反例：不要求SQL经验",
+      "status": "PASS"
+    },
+    {
+      "check": "语境正反例：无需熟练掌握SQL",
+      "status": "PASS"
+    },
+    {
+      "check": "语境正反例：SQL能力加分",
+      "status": "PASS"
+    },
+    {
+      "check": "语境正反例：熟练使用MySQL",
+      "status": "PASS"
+    },
+    {
+      "check": "语境正反例：NoSQL经验",
+      "status": "PASS"
+    },
+    {
+      "check": "语境正反例：SQL加分；精通SQL",
+      "status": "PASS"
+    },
+    {
+      "check": "双表征比较使用同一候选数量",
+      "status": "PASS"
+    },
+    {
+      "check": "检索结果有序且可回溯",
+      "status": "PASS"
+    },
+    {
+      "check": "检索相似度不是超范围数值",
+      "status": "PASS"
+    },
+    {
+      "check": "群中心距离与间隔有限且非负",
+      "status": "PASS"
+    },
+    {
+      "check": "增强报告章节真实换行且包含扩展实验",
+      "status": "PASS"
+    },
+    {
+      "check": "监督分类样本与分组留出数量正确",
+      "status": "PASS"
+    },
+    {
+      "check": "分类分数与测试样本有效",
+      "status": "PASS"
+    },
+    {
+      "check": "分类Accuracy和Macro-F1可由测试预测底稿复算",
+      "status": "PASS"
+    },
+    {
+      "check": "图表文件齐全",
+      "status": "PASS"
+    },
+    {
+      "check": "图像完整可读 02_city_counting_methods.png",
+      "status": "PASS"
+    },
+    {
+      "check": "图像完整可读 02_city_coverage.png",
+      "status": "PASS"
+    },
+    {
+      "check": "图像完整可读 02_company_city.png",
+      "status": "PASS"
+    },
+    {
+      "check": "图像完整可读 02_company_counts.png",
+      "status": "PASS"
+    },
+    {
+      "check": "图像完整可读 02_concentration.png",
+      "status": "PASS"
+    },
+    {
+      "check": "图像完整可读 02_field_coverage.png",
+      "status": "PASS"
+    },
+    {
+      "check": "图像完整可读 02_recruitment_mix.png",
+      "status": "PASS"
+    },
+    {
+      "check": "图像完整可读 02_standardized_beijing.png",
+      "status": "PASS"
+    },
+    {
+      "check": "图像完整可读 03_focus_company_skills.png",
+      "status": "PASS"
+    },
+    {
+      "check": "图像完整可读 03_role_hint_skills.png",
+      "status": "PASS"
+    },
+    {
+      "check": "图像完整可读 03_skill_cooccurrence.png",
+      "status": "PASS"
+    },
+    {
+      "check": "图像完整可读 03_skill_lift.png",
+      "status": "PASS"
+    },
+    {
+      "check": "图像完整可读 03_skill_mentions.png",
+      "status": "PASS"
+    },
+    {
+      "check": "图像完整可读 04_classifier_confusion.png",
+      "status": "PASS"
+    },
+    {
+      "check": "图像完整可读 04_cluster_projection.png",
+      "status": "PASS"
+    },
+    {
+      "check": "图像完整可读 04_cluster_skills.png",
+      "status": "PASS"
+    },
+    {
+      "check": "图像完整可读 04_cluster_type_mix.png",
+      "status": "PASS"
+    },
+    {
+      "check": "图像完整可读 04_model_comparison.png",
+      "status": "PASS"
+    },
+    {
+      "check": "4本Notebook齐全",
+      "status": "PASS"
+    },
+    {
+      "check": "教材无误转义控制字符 01_数据分析基础与JSON结构化.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "全部代码执行且无错误 01_数据分析基础与JSON结构化.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "无字体缺字与数值异常警告 01_数据分析基础与JSON结构化.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "HTML预览存在 01_数据分析基础与JSON结构化.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "教学注释和扩展内容已生成 01_数据分析基础与JSON结构化.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "教材无误转义控制字符 02_招聘结构与可视化分析.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "全部代码执行且无错误 02_招聘结构与可视化分析.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "无字体缺字与数值异常警告 02_招聘结构与可视化分析.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "HTML预览存在 02_招聘结构与可视化分析.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "教学注释和扩展内容已生成 02_招聘结构与可视化分析.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "教材无误转义控制字符 03_职位文本分析与技能特征.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "全部代码执行且无错误 03_职位文本分析与技能特征.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "无字体缺字与数值异常警告 03_职位文本分析与技能特征.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "HTML预览存在 03_职位文本分析与技能特征.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "教学注释和扩展内容已生成 03_职位文本分析与技能特征.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "教材无误转义控制字符 04_岗位聚类与项目交付.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "全部代码执行且无错误 04_岗位聚类与项目交付.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "无字体缺字与数值异常警告 04_岗位聚类与项目交付.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "HTML预览存在 04_岗位聚类与项目交付.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "教学注释和扩展内容已生成 04_岗位聚类与项目交付.ipynb",
+      "status": "PASS"
+    },
+    {
+      "check": "报告包含真实职位规模",
+      "status": "PASS"
+    },
+    {
+      "check": "环境锁文件存在",
+      "status": "PASS"
+    }
+  ]
+}

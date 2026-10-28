@@ -1,0 +1,36 @@
+{
+  "focus_jobs": 1138,
+  "long_skill_relations": 4810,
+  "skill_pairs": 153,
+  "supported_pairs": 73,
+  "top_supported_pair": {
+    "a": "Spark",
+    "b": "Hadoop/Hive",
+    "n_a": 79,
+    "n_b": 177,
+    "n_ab": 71,
+    "p_b_given_a": 0.8987341772151899,
+    "p_a_given_b": 0.4011299435028249,
+    "jaccard": 0.3837837837837838,
+    "lift": 5.7783022241293
+  },
+  "sql_context_counts": {
+    "未提及": 35434,
+    "明确要求提示": 3132,
+    "仅提及": 1247,
+    "加分提示": 674,
+    "多种语境": 174
+  },
+  "new_columns": [
+    "role_hints_json",
+    "role_hint_primary",
+    "title_internship_hint",
+    "internship_hint_outside_intern_type",
+    "req_context_Python",
+    "req_evidence_Python",
+    "req_context_SQL",
+    "req_evidence_SQL",
+    "req_context_Excel",
+    "req_evidence_Excel"
+  ]
+}

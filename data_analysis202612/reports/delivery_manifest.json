@@ -1,0 +1,705 @@
+{
+  "files": 140,
+  "items": [
+    {
+      "path": ".gitignore",
+      "bytes": 125,
+      "sha256": "2af5ddb812a075162842d336fd9d03156c08b4cfdd92991748bb1e2e62d1b127"
+    },
+    {
+      "path": "Python与分析操作速查.md",
+      "bytes": 3289,
+      "sha256": "96d1380ad6cab36a0585d6109bede35b5f4f9350e6bb3f08917ee23e66c02f48"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2876,
+      "sha256": "7dfbf5b0b0393d558e3501ba8a21e893d48957a441dcbb81a69993f5bacdfa90"
+    },
+    {
+      "path": "artifacts/figures/02_city_counting_methods.png",
+      "bytes": 65839,
+      "sha256": "238b84e64cc59a353235f179320633eece0eabb6b7ba1341e0f980cb5c184e6d"
+    },
+    {
+      "path": "artifacts/figures/02_city_coverage.png",
+      "bytes": 58738,
+      "sha256": "0cf8ec297e68da65bef3d0b04556e321aa9cba7f4c9077e93df1a37acce56435"
+    },
+    {
+      "path": "artifacts/figures/02_company_city.png",
+      "bytes": 195695,
+      "sha256": "fe726968505ad0e4da6bbefaf6157a6aba152e97aaf5de17f4449f9222c6d100"
+    },
+    {
+      "path": "artifacts/figures/02_company_counts.png",
+      "bytes": 69512,
+      "sha256": "fd9a875a8dbf29bd6d8628aac54d4b1f08711b2868c48746f10db00a3313714a"
+    },
+    {
+      "path": "artifacts/figures/02_concentration.png",
+      "bytes": 81483,
+      "sha256": "3c61162013e4eefa549168c7420c5df436dace2792e0d872dbfdb47bb8619188"
+    },
+    {
+      "path": "artifacts/figures/02_field_coverage.png",
+      "bytes": 119351,
+      "sha256": "44ac707ba69d0c6c7af86597be7b37d5d2b38aaa123ca0c7c8e4630d1e5c113f"
+    },
+    {
+      "path": "artifacts/figures/02_recruitment_mix.png",
+      "bytes": 82456,
+      "sha256": "d8bcffde07b03f8f8d2c10be80cc286c83387d9bb0b9a6b6c596f67980d50932"
+    },
+    {
+      "path": "artifacts/figures/02_standardized_beijing.png",
+      "bytes": 77161,
+      "sha256": "04aa4b299f40c10cca94ef54ba9d3c1ff0f0beb8f0b0777072d56461825c4b62"
+    },
+    {
+      "path": "artifacts/figures/03_focus_company_skills.png",
+      "bytes": 174279,
+      "sha256": "6a813b08547cf8e8ae11f31aa175eac63e97a2dfe350f49814072a8348b8a08e"
+    },
+    {
+      "path": "artifacts/figures/03_role_hint_skills.png",
+      "bytes": 112597,
+      "sha256": "ee83cd2238a33f86113ce4379fbbe63652b7e4761e1188f8a7f31e0385d4963c"
+    },
+    {
+      "path": "artifacts/figures/03_skill_cooccurrence.png",
+      "bytes": 142402,
+      "sha256": "07ad73fe003f3617203d417507d3a313377354bdd7fa44d2a1336de5f162c9d8"
+    },
+    {
+      "path": "artifacts/figures/03_skill_lift.png",
+      "bytes": 82702,
+      "sha256": "066acd47c2bce0e324cef00cb903f8e707c4e4550470faa0e09728f5e17a86b0"
+    },
+    {
+      "path": "artifacts/figures/03_skill_mentions.png",
+      "bytes": 82630,
+      "sha256": "95405388e10217e5ea6d5540d3f1d758728760e70dd36c6ad017369956ab7609"
+    },
+    {
+      "path": "artifacts/figures/04_classifier_confusion.png",
+      "bytes": 44618,
+      "sha256": "775fda77f60be00d9ca72497401689433f36ca0522e900f05b024ab3424ccc55"
+    },
+    {
+      "path": "artifacts/figures/04_cluster_projection.png",
+      "bytes": 151207,
+      "sha256": "b3215feac967109a6d77717a4f94bf5d701656ad77aaa4050aabdc6ebe00e4cb"
+    },
+    {
+      "path": "artifacts/figures/04_cluster_skills.png",
+      "bytes": 81659,
+      "sha256": "543b1cf528a3a0a00bc733c3623cf43a25413cdaf4766932c27ef221c09f1d2d"
+    },
+    {
+      "path": "artifacts/figures/04_cluster_type_mix.png",
+      "bytes": 56675,
+      "sha256": "5cdf2d9f3f93d7bf528d86c93ad334d31757b04262b479f1eaec7ad69514e80f"
+    },
+    {
+      "path": "artifacts/figures/04_model_comparison.png",
+      "bytes": 90488,
+      "sha256": "f5fec20982a763fbe99e1fea81b14acacf41b65c17f5ee9a91660d24bb35aae9"
+    },
+    {
+      "path": "artifacts/review/chart_contact_sheet.jpg",
+      "bytes": 339868,
+      "sha256": "bd77d97575fd6226393f0e69cdac2a96362465d0a073a5a61cfbadad6a5b77d7"
+    },
+    {
+      "path": "artifacts/review/chart_contact_sheet_v2.jpg",
+      "bytes": 575091,
+      "sha256": "36ce0b0f610a167fcac94255572a2e2fd20c5cb2ff990bb37476ec094b4cd228"
+    },
+    {
+      "path": "artifacts/review/standardization_replot.png",
+      "bytes": 42143,
+      "sha256": "65e0b5e8a9d7db7ff25a0ba5583c5a92f2b94a3cf3e904472b22cc6aea2fd4e1"
+    },
+    {
+      "path": "artifacts/tables/01_location_audit.csv",
+      "bytes": 10337,
+      "sha256": "90033a2daf760727d59812f7561af5ed8a40dba7efc9407c18e96a86164bda1d"
+    },
+    {
+      "path": "artifacts/tables/01_organization_join_demo.csv",
+      "bytes": 314221,
+      "sha256": "3e80a0744f24431e541e7e5fca8df7d39e51912f352661aee97e88ff4c37fd84"
+    },
+    {
+      "path": "artifacts/tables/01_source_quality.csv",
+      "bytes": 912,
+      "sha256": "1b40eaea7bd87bad3fc7b89a1db226cc9bc7244dfd4aa94e96c23665887f7e51"
+    },
+    {
+      "path": "artifacts/tables/02_beijing_society_drilldown.csv",
+      "bytes": 1299,
+      "sha256": "c18511c5905ee4907a533caee3a47259cc0469790f8fb91a0b9ec1a73ea111b8"
+    },
+    {
+      "path": "artifacts/tables/02_city_counting_methods.csv",
+      "bytes": 14119,
+      "sha256": "2d510afb7e7a74c45756100a03cefce350df7b006e4f7cd899bcd3cf4c674ecd"
+    },
+    {
+      "path": "artifacts/tables/02_city_counts.csv",
+      "bytes": 9545,
+      "sha256": "b9f293049fc22fbd76409e165f1f741b3e66ac9fb2c3816803ad43aef862d8ed"
+    },
+    {
+      "path": "artifacts/tables/02_company_city_rate.csv",
+      "bytes": 33767,
+      "sha256": "29a6f862b37ee54db21729c8c4a1a2649e357bed3cde12fa3249c0a50ed9ee6a"
+    },
+    {
+      "path": "artifacts/tables/02_company_counts.csv",
+      "bytes": 691,
+      "sha256": "81dc6d1f0c891da316bf95143d0bd5d94ee88f29bd01138d9d2df8865b01c189"
+    },
+    {
+      "path": "artifacts/tables/02_concentration.csv",
+      "bytes": 1055,
+      "sha256": "b4ac16160ebc798a933c7d8ce7c0a74217e2b1a1c4b4b35c2835a24886a913ed"
+    },
+    {
+      "path": "artifacts/tables/02_field_coverage.csv",
+      "bytes": 485,
+      "sha256": "ce75043395ff995863823c8909766d91cfe6a7e175adfa6451b528ad2a75c69a"
+    },
+    {
+      "path": "artifacts/tables/02_standardized_beijing.csv",
+      "bytes": 1016,
+      "sha256": "89f4e348a5cc800507f632622b3ad8789cac9b258a1b5966d246522c463ca0aa"
+    },
+    {
+      "path": "artifacts/tables/02_type_counts.csv",
+      "bytes": 533,
+      "sha256": "e3a3991bc567caf5d508d9952b9eea36c7e5e0c2d55872ed62953eae4b05a2a2"
+    },
+    {
+      "path": "artifacts/tables/02_type_share.csv",
+      "bytes": 1288,
+      "sha256": "c304a955afedc4e5812e31b35cbb9769da1201b045a817f3f0679436459143f6"
+    },
+    {
+      "path": "artifacts/tables/03_context_review_sample.csv",
+      "bytes": 2087,
+      "sha256": "75af24fc3a0e511b49f6241bacb3ad5b04a1251fbd16e377d563387bacaaeefd"
+    },
+    {
+      "path": "artifacts/tables/03_feature_coverage.csv",
+      "bytes": 1346,
+      "sha256": "95f8d42771594ad3d3ab2438ce0fb0d79b5f8cf219818683de10a129a953a890"
+    },
+    {
+      "path": "artifacts/tables/03_focus_company_skills.csv",
+      "bytes": 4228,
+      "sha256": "d6245289740afab00052775434831512ac5b3be2d39ba6c048d4de0df76f0923"
+    },
+    {
+      "path": "artifacts/tables/03_focus_skill_long.csv",
+      "bytes": 241560,
+      "sha256": "d04e439da17d71763330cc63a8471fabecb606c672400947888fc09d7dca6892"
+    },
+    {
+      "path": "artifacts/tables/03_internship_title_vs_type.csv",
+      "bytes": 158,
+      "sha256": "13dc36e49d6fdef3f8e13f192d537479e30a091bceb51c0dc408e96b389169d1"
+    },
+    {
+      "path": "artifacts/tables/03_role_hint_skills.csv",
+      "bytes": 1716,
+      "sha256": "5bdd07a6aa72fe2d145d4a4e5a1aaab20170f13647d4bf34fb118cd1dd9bb3ca"
+    },
+    {
+      "path": "artifacts/tables/03_skill_cooccurrence.csv",
+      "bytes": 399,
+      "sha256": "3bebde6aeb9d375f9dd649d02319f40e8c4dc7e9c6b8da10299050aa57f7e470"
+    },
+    {
+      "path": "artifacts/tables/03_skill_manual_audit.csv",
+      "bytes": 19249,
+      "sha256": "8e35229a998b085a6c637fcb66fcd7da20d2428050a588f7b90fb2e5ee651482"
+    },
+    {
+      "path": "artifacts/tables/03_skill_mentions.csv",
+      "bytes": 1298,
+      "sha256": "0f13d83ca4abb5e39a1779993be933c11847db93413b698ee15e5ac35ca95502"
+    },
+    {
+      "path": "artifacts/tables/03_skill_pairs.csv",
+      "bytes": 14659,
+      "sha256": "db5327ac604299c5edb10ad72c0f00a2eae9d9da950930be04e35f21ecc73a3b"
+    },
+    {
+      "path": "artifacts/tables/03_skill_teacher_review.csv",
+      "bytes": 5883,
+      "sha256": "f25b02567f5804a5e08638ccebd767e572701be7455c09ffb34bec1229ad4852"
+    },
+    {
+      "path": "artifacts/tables/03_sql_context_by_type.csv",
+      "bytes": 271,
+      "sha256": "9425a373dc9890f69ed64bc72b23ee106378da4d0c8f1120e49a7aada1a2728d"
+    },
+    {
+      "path": "artifacts/tables/03_tfidf_keywords.csv",
+      "bytes": 65106,
+      "sha256": "464f69f6f7792925f3abbb87baae116adf568ff2b1944ccb19d4ea978cef4c58"
+    },
+    {
+      "path": "artifacts/tables/04_boundary_jobs.csv",
+      "bytes": 887,
+      "sha256": "55d0d47fbf47e9ab4f6d3d0ef6c65e97f738e28581424ac0ececc64b5a9d1ce1"
+    },
+    {
+      "path": "artifacts/tables/04_classifier_report.csv",
+      "bytes": 417,
+      "sha256": "9713a69dbc155e1359395643ea24275e3ab42d2c8e3823b64532ad5bfc2cc091"
+    },
+    {
+      "path": "artifacts/tables/04_classifier_scores.csv",
+      "bytes": 154,
+      "sha256": "1f9d568f39976336039c14412d4b4a1a1b2d33aa5d03c0341b35a764b5574296"
+    },
+    {
+      "path": "artifacts/tables/04_classifier_test_predictions.csv",
+      "bytes": 19323,
+      "sha256": "a2c3776752484ad82048ab29d63b358364b3fe092618a96583a0ad262f0c2ebf"
+    },
+    {
+      "path": "artifacts/tables/04_cluster_city_counts.csv",
+      "bytes": 470,
+      "sha256": "41aa771d60cf0a697730b0b295d1bb3a1d340572f2f207cf95685badc2338fd7"
+    },
+    {
+      "path": "artifacts/tables/04_cluster_company_counts.csv",
+      "bytes": 279,
+      "sha256": "2c527ff4becc492f58914e090b43c733ba2d1d50a65b5db88b81164a4e87aca5"
+    },
+    {
+      "path": "artifacts/tables/04_cluster_representatives.csv",
+      "bytes": 16643,
+      "sha256": "6c87a41a838e78ac71109fe93fc3d965cfd3deb1605d8c4bbb870712af510b6f"
+    },
+    {
+      "path": "artifacts/tables/04_cluster_skills.csv",
+      "bytes": 501,
+      "sha256": "02b63dc450c13318aa4aa2cdfaab0e97df04054cb39af00854ba6492969d3e57"
+    },
+    {
+      "path": "artifacts/tables/04_cluster_summary.csv",
+      "bytes": 727,
+      "sha256": "f8f3109f1e115b4388bc9ccc8d9b7fefcf87ae41195b71761ae8d34ac3516d58"
+    },
+    {
+      "path": "artifacts/tables/04_cluster_type_counts.csv",
+      "bytes": 107,
+      "sha256": "39288d80c6a2f395dc811b3df83260d6a29e9e14b454244777150b96c85cd87d"
+    },
+    {
+      "path": "artifacts/tables/04_failed_char_baseline.csv",
+      "bytes": 323,
+      "sha256": "565d09e28ce9cbec57a44280e2ae3ff6f98a79ae915215bc1a2f9e2580ca8621"
+    },
+    {
+      "path": "artifacts/tables/04_k_comparison.csv",
+      "bytes": 308,
+      "sha256": "1ce7da3a9bd0c9ab0e02fb45ef3267cea267790f10adfd548b95d9ab6fe39401"
+    },
+    {
+      "path": "artifacts/tables/04_model_vocabulary.csv",
+      "bytes": 13191,
+      "sha256": "43c3e8e4e886d40c5dc7e75d0ec8333bf57628d33ba76ed7ab2bbe65ab7112c2"
+    },
+    {
+      "path": "artifacts/tables/04_query_retrieval.csv",
+      "bytes": 1319,
+      "sha256": "8cfb1a8eaec94be859a7110af86df528ac04cc5ce98984cdf9d12fb47926920d"
+    },
+    {
+      "path": "artifacts/tables/04_representation_comparison.csv",
+      "bytes": 57,
+      "sha256": "516f3a6db4d1d98e9f3f1c6d88f86867822078846fb1f506c5e5ce62d7bf6dfc"
+    },
+    {
+      "path": "artifacts/tables/04_stratified_cluster_skills.csv",
+      "bytes": 659,
+      "sha256": "38254a1ad9387ae3328f375b562421c8c5ee793b446083f4878b83a7245cade4"
+    },
+    {
+      "path": "course_utils.py",
+      "bytes": 13210,
+      "sha256": "70a5b71121bd8f8b87d4457a7c59089635e5ac2c670c030b3d12f12fd78d3138"
+    },
+    {
+      "path": "data/processed/jobs_clean.parquet",
+      "bytes": 66202477,
+      "sha256": "5fd48d85d8e5cfac4df9ac6105bbd2bc2536bf14cb0719295a822c0056467c13"
+    },
+    {
+      "path": "data/processed/jobs_clustered.parquet",
+      "bytes": 3120563,
+      "sha256": "b7011d9139462debc6561b595bbb18298aae6dde7aa51d31570ffd63f16d3ab7"
+    },
+    {
+      "path": "data/processed/jobs_features.parquet",
+      "bytes": 97749039,
+      "sha256": "a2e9b7ade4233c5c6c1b6bc44fd4c14bf8a1354ea9af0565bcd053e9acfe816f"
+    },
+    {
+      "path": "data/processed/jobs_preview.csv",
+      "bytes": 5914764,
+      "sha256": "606734fbf02e76e9e03781353dca88e62a65c67b50805520d9fa32c549d5f927"
+    },
+    {
+      "path": "data/raw/manifest.json",
+      "bytes": 656,
+      "sha256": "86b3848e415ff3812119274750cd345bcfebed3af5c7df278833d114078e643c"
+    },
+    {
+      "path": "data/raw/pending_queue_snapshot.db",
+      "bytes": 335814656,
+      "sha256": "29efa641bd5db92362ae97b75e226b994e5148a2bfe8cb442e397c0860f413ac"
+    },
+    {
+      "path": "data/raw/pending_queue_snapshot.tmp-shm",
+      "bytes": 32768,
+      "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb"
+    },
+    {
+      "path": "notebooks/01_数据分析基础与JSON结构化.ipynb",
+      "bytes": 104799,
+      "sha256": "9eed9402c666ddecffb2b0d4ea7119710d0a9498817b56e2bab8d5581270b029"
+    },
+    {
+      "path": "notebooks/02_招聘结构与可视化分析.ipynb",
+      "bytes": 673815,
+      "sha256": "c8120fd0e666811158750d374b4f606f3cb9dec5fb940add6146f11d4da911cc"
+    },
+    {
+      "path": "notebooks/03_职位文本分析与技能特征.ipynb",
+      "bytes": 609108,
+      "sha256": "5b7b8b62e82480a2bcdc4bf32c4ced905c3eb4b44dcd258cf22fc7c396f99ae5"
+    },
+    {
+      "path": "notebooks/04_岗位聚类与项目交付.ipynb",
+      "bytes": 446042,
+      "sha256": "34a8e1755718ab4f57f1aec9a3a3c689f8fcba05812912e292ded7733a3aef26"
+    },
+    {
+      "path": "reports/01_数据分析基础与JSON结构化.html",
+      "bytes": 418238,
+      "sha256": "4b80862e3ead9186ac605cc849242679904ae3bcc66b78dd3487821f5b60bacc"
+    },
+    {
+      "path": "reports/02_招聘结构与可视化分析.html",
+      "bytes": 1001693,
+      "sha256": "517c41e95f34ae0c8edb6694d9a76f57ed2c15d1849419f994fc0029a3640f47"
+    },
+    {
+      "path": "reports/03_职位文本分析与技能特征.html",
+      "bytes": 916674,
+      "sha256": "95418b0fe6ccc15b65f09629008f5a82175ffa99eadc794977248b0c2690b88c"
+    },
+    {
+      "path": "reports/04_岗位聚类与项目交付.html",
+      "bytes": 810714,
+      "sha256": "73885f1ed410ccc891fd9c87aedbb06f046033f134fe59c4405c5a7fd7aa7d56"
+    },
+    {
+      "path": "reports/classifier_metrics.json",
+      "bytes": 502,
+      "sha256": "48900af767d153866340d7ee605d056a77f50516a9be7468a26ff8764f551928"
+    },
+    {
+      "path": "reports/cleaning_log.json",
+      "bytes": 834,
+      "sha256": "901f126e1fc2a4b83048cbd2dcfd28f8190ff32f006d203fe99091240a97d5b4"
+    },
+    {
+      "path": "reports/cluster_metrics.json",
+      "bytes": 294,
+      "sha256": "b22578ca6dfc166a99158903d8760a781a342511008060bc476d51d2ff388e92"
+    },
+    {
+      "path": "reports/execution_results.json",
+      "bytes": 839,
+      "sha256": "e2ff5260389e6812ba8dc1f470b635a7aa987008239c7184f4176cc2c5927190"
+    },
+    {
+      "path": "reports/history/v1/01_数据分析基础与JSON结构化.ipynb",
+      "bytes": 60001,
+      "sha256": "9b831e6bf9efe40046066723be51a76a4d899fbafd56866794d2ec2bfbe44682"
+    },
+    {
+      "path": "reports/history/v1/02_招聘结构与可视化分析.ipynb",
+      "bytes": 456802,
+      "sha256": "b204e2dbb87a1f711c204dc17257f911693409a7595ee301076abecadedcdb55"
+    },
+    {
+      "path": "reports/history/v1/03_职位文本分析与技能特征.ipynb",
+      "bytes": 404203,
+      "sha256": "2f275c4f9d8d55503e1d95cd019f46dc3a0d2d8bc4e816ecd505e416f1303c50"
+    },
+    {
+      "path": "reports/history/v1/04_岗位聚类与项目交付.ipynb",
+      "bytes": 303809,
+      "sha256": "ace6cdbc29d936a39687547c09c68712c5359af4109460f362a2af7f4979a204"
+    },
+    {
+      "path": "reports/history/v1/clustering_experiment.log",
+      "bytes": 9449,
+      "sha256": "da86ffc2b5c36d9c9f67f341488a7b67b5b82cd3b292695cb50dd1e44377fe41"
+    },
+    {
+      "path": "reports/history/v1/clustering_experiment_v2.log",
+      "bytes": 6943,
+      "sha256": "b467e3bc8e184811f3b18ffb8cdff4a322936ef89bf3f19225e22ceedd961532"
+    },
+    {
+      "path": "reports/history/v1/execution_results.json",
+      "bytes": 835,
+      "sha256": "9c308cb52c3139a3fe4b672f4900c9005479dbaf11657e6aa138e371f1106949"
+    },
+    {
+      "path": "reports/history/v1/final_execution.log",
+      "bytes": 2077,
+      "sha256": "dbcf868b8bd737d6308b02a8143c0bf079011c5d3cd03d17eab73f16d14b63ac"
+    },
+    {
+      "path": "reports/history/v1/preflight_structure.log",
+      "bytes": 9457,
+      "sha256": "1cd1ffd0cc3566471331c72eeb976a471a9a6138253bea88e2f622ea1934ed94"
+    },
+    {
+      "path": "reports/history/v1/reproducibility_baseline.json",
+      "bytes": 1995,
+      "sha256": "652667196c1b37f7f8c2d1d7afbe07bb6f5be24846874f93ba58d84d7d4e43c3"
+    },
+    {
+      "path": "reports/history/v1/reproducibility_results.json",
+      "bytes": 1706,
+      "sha256": "d72f31b08ea21e7f713db154fbb945535102f88372667885c0ab4c03dfe5ffdc"
+    },
+    {
+      "path": "reports/history/v1/round2_execution.log",
+      "bytes": 2079,
+      "sha256": "e0b22693208edc9ed69e5836e3dd104545daf7ea9befa41b0e6125bf66405a0d"
+    },
+    {
+      "path": "reports/history/v1/round3_execution.log",
+      "bytes": 2078,
+      "sha256": "2d81cc7fb09d05c06471d6ce0c8280a6da8920385e337cdf4c8a124d1c9e2b9a"
+    },
+    {
+      "path": "reports/history/v1/round4_execution.log",
+      "bytes": 2078,
+      "sha256": "5c308dfd49a632643439365631f8640ade2d03a42de28c4a6806198cddfb0af1"
+    },
+    {
+      "path": "reports/history/v1/validation_results.json",
+      "bytes": 9777,
+      "sha256": "af5fe3939b5e069886eb13c82f37d616039762680490adc3b4056d753c60384e"
+    },
+    {
+      "path": "reports/history/v1/验证与修订记录.md",
+      "bytes": 6228,
+      "sha256": "99017863507e7494a411a6c9ce271fed19b1ae8cab3e0982c4a167c3627dfb44"
+    },
+    {
+      "path": "reports/jupyter_smoke.json",
+      "bytes": 313,
+      "sha256": "f2227ebecd7e3d6f5abb00f04349d96d5598a7535c66d999de39529522064654"
+    },
+    {
+      "path": "reports/material_structure.json",
+      "bytes": 586,
+      "sha256": "b1cc8104f7c0a22dcb773e80fe79ce6ba3059c539f16f85619a876fdabaa57c2"
+    },
+    {
+      "path": "reports/model_extension_metrics.json",
+      "bytes": 289,
+      "sha256": "56172fb18a1f9067a81eb5eacfeb7e7a8d0eb6923b7e4ba987c015e6aa7e4cb2"
+    },
+    {
+      "path": "reports/rejected_json.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "reports/reproducibility_baseline_v2.json",
+      "bytes": 8203,
+      "sha256": "c642725d6b2ae96d5392eb8207bb74b6a7e153a1eb3f078ab49b0f43155d9ccf"
+    },
+    {
+      "path": "reports/reproducibility_results_v2.json",
+      "bytes": 6888,
+      "sha256": "622330b56356bc60d57cdbe2c24b1275da5ca3f0bf78b475c2ad8143bd00eda1"
+    },
+    {
+      "path": "reports/structure_extension_metrics.json",
+      "bytes": 341,
+      "sha256": "c6a86d6ec80996ee4cd9cc4101341390c2acda17b91241a0e440cff9ed2bb383"
+    },
+    {
+      "path": "reports/structure_metrics.json",
+      "bytes": 295,
+      "sha256": "49e1b2607b631f6f10f0faa80fa6950b3cb2ec69e5d1fd8aec70857982b2ce86"
+    },
+    {
+      "path": "reports/text_extension_metrics.json",
+      "bytes": 817,
+      "sha256": "eecc07791750deb79c64f3ff81d55aef18f98b36309c74d47a4a6d583cb6fb23"
+    },
+    {
+      "path": "reports/text_metrics.json",
+      "bytes": 264,
+      "sha256": "247cf7a53b0c3ab1c03f3584f01242c71848315d0e822154749a559b1d53313b"
+    },
+    {
+      "path": "reports/v2_final_execution.log",
+      "bytes": 2081,
+      "sha256": "f456126278df7f651a409905d21ea826f6e1a4adadc654c6da5d16244a5375f5"
+    },
+    {
+      "path": "reports/v2_final_validation.log",
+      "bytes": 95,
+      "sha256": "da97d94a0f375d996e6481c8df3cab7a433236c74524865544a4457b3d1240c0"
+    },
+    {
+      "path": "reports/v2_round1_execution.log",
+      "bytes": 2082,
+      "sha256": "b063f2c0c57eedab5834c0c267f9380e08d820d0a27a01ff6c9cfb5e536e29f7"
+    },
+    {
+      "path": "reports/v2_round1_validation.log",
+      "bytes": 95,
+      "sha256": "e3e2ef669959f779f2ebefd7b46b17b8bd4e154262531087ebd44cf263954d8c"
+    },
+    {
+      "path": "reports/v2_round2_execution.log",
+      "bytes": 2082,
+      "sha256": "57d316ddd62f750e852e0306d8ccff708b2d5c28c077ad233b06d90cee5b2d1d"
+    },
+    {
+      "path": "reports/v2_round2_validation.log",
+      "bytes": 95,
+      "sha256": "283ce34007be3feedc41638f0a28f7df4d2bd306477b54a3daab9f4d11563ddf"
+    },
+    {
+      "path": "reports/validation_results.json",
+      "bytes": 14741,
+      "sha256": "9c336601e7658c8d244aa4a2efc133dc55cc1f1e9b1bc9bc0f613a4d31f0eea7"
+    },
+    {
+      "path": "reports/项目分析报告.md",
+      "bytes": 3602,
+      "sha256": "1dfd84c1f5ec0f8be64c87e0661af1a2a62010b6e88eec1ffb8f96c084b83c29"
+    },
+    {
+      "path": "reports/项目分析报告_增强版.md",
+      "bytes": 4751,
+      "sha256": "bc4707b716a62f30a24cae407c7b1b9ec7e9da30bf74ef2193f4820fd1de9a61"
+    },
+    {
+      "path": "reports/验证与修订记录.md",
+      "bytes": 4193,
+      "sha256": "2aca9054ee1fb2b95fd3ad41c880a0ae5c1aece13c1ab0c8443836086f28b1eb"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "bytes": 2048,
+      "sha256": "538f6f9897c196233422f1c196001e151bf61b0eb3935c1dafb4d57592d41204"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 218,
+      "sha256": "bb1b4036d386d19d712dd77a83c0a3ce8e961b4fd6f723754104416cd420a10b"
+    },
+    {
+      "path": "scripts/build_notebooks.py",
+      "bytes": 57562,
+      "sha256": "0d896bd7275e192a079f105d435afb6bb2005677a195424a185c0d5a500753d0"
+    },
+    {
+      "path": "scripts/check_reproducibility.py",
+      "bytes": 2396,
+      "sha256": "dca18395475a0e7e97c227cb04a7c5ca7104ef010f1c32f34bfcccb1646840af"
+    },
+    {
+      "path": "scripts/code_annotations.py",
+      "bytes": 25637,
+      "sha256": "26a0b2a7fdc10c442d1152eea31a2d70cc8f71f750eef43ea353f2eb25bd5f0d"
+    },
+    {
+      "path": "scripts/lesson_extensions.py",
+      "bytes": 47185,
+      "sha256": "e36c8a92d93956bd5ce20070b5fea37e250844c9f92835df692983091d5bd517"
+    },
+    {
+      "path": "scripts/run_course.py",
+      "bytes": 3503,
+      "sha256": "e74f03dc9227a47a9938ab68a56cd192a33f1d0f018e911e8341b9f765ffe969"
+    },
+    {
+      "path": "scripts/smoke_jupyter.py",
+      "bytes": 2820,
+      "sha256": "b5b8a363bcfbbef11af658ff4b190b60c042e0d8996c93305e0daca38680c8f8"
+    },
+    {
+      "path": "scripts/start_jupyter.sh",
+      "bytes": 650,
+      "sha256": "e7d63e137fccebec55c1b2f473305cafebbce42d58d5a6e2e78f9d83ba703ab0"
+    },
+    {
+      "path": "scripts/validate_delivery.py",
+      "bytes": 14987,
+      "sha256": "0f432c7b36805448c4602b3cf3c7e3555ea8b0ee8bae9b326f32eb1110d52448"
+    },
+    {
+      "path": "teacher_skill_review.json",
+      "bytes": 2200,
+      "sha256": "952fcd68e66f54bb52020b55eb04f13f342666cbb87b8844db5b9494c5130ffb"
+    },
+    {
+      "path": "增强版教学路线.md",
+      "bytes": 4795,
+      "sha256": "4d1565609a3e02902cbef99e20864455c12c666476a6c7dcb15f2093b5d5e7a9"
+    },
+    {
+      "path": "开始上课.md",
+      "bytes": 6376,
+      "sha256": "b0d5f0951209f65ab010268c005630beb6ad3982a17e5cc24d8b80e65cb1f6a5"
+    },
+    {
+      "path": "指标与特征口径.md",
+      "bytes": 8803,
+      "sha256": "2c774ac93b4673c14c0318501f5cd1d727b9bf7a1c06ce3f5400509941012151"
+    },
+    {
+      "path": "教学设计与评分.md",
+      "bytes": 4313,
+      "sha256": "08c9e17cb431666b4a9d2972633af9cbb72609f2d5c302b4e195f58b7189c61b"
+    },
+    {
+      "path": "数据字典.md",
+      "bytes": 5115,
+      "sha256": "3d5c4fe65d264c7669a904339dd8b46f2dff76c9ca3791bb5a0d097dd249ac81"
+    },
+    {
+      "path": "课堂任务单与参考答案.md",
+      "bytes": 4215,
+      "sha256": "20c96218b76bf2ac7d3ad7733c41c3985f5f4b071e6dab07833d8b575df631e8"
+    },
+    {
+      "path": "课程介绍.md",
+      "bytes": 8754,
+      "sha256": "54751d6cf49cc0e3856d6978fd5d9344fc2e7681f3cc784888ebdfbedea7a952"
+    }
+  ]
+}

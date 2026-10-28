@@ -1,0 +1,13 @@
+{
+  "companies_to_80pct": 7,
+  "top_20pct_company_n": 4,
+  "top_20pct_company_share": 0.678315830894469,
+  "source_hhi": 0.21109228640139224,
+  "fractional_city_total": 39689.0,
+  "no_city_jobs": 972,
+  "standardization_companies": 14,
+  "standardization_weights": {
+    "society": 0.7268571774535327,
+    "campus": 0.27314282254646727
+  }
+}

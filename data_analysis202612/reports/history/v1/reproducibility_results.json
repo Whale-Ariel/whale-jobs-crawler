@@ -1,0 +1,78 @@
+{
+  "files": 18,
+  "identical": 18,
+  "results": [
+    {
+      "file": "data/processed/jobs_clean.parquet",
+      "identical": true
+    },
+    {
+      "file": "data/processed/jobs_features.parquet",
+      "identical": true
+    },
+    {
+      "file": "data/processed/jobs_clustered.parquet",
+      "identical": true
+    },
+    {
+      "file": "artifacts/figures/03_focus_company_skills.png",
+      "identical": true
+    },
+    {
+      "file": "artifacts/figures/02_field_coverage.png",
+      "identical": true
+    },
+    {
+      "file": "artifacts/figures/02_company_counts.png",
+      "identical": true
+    },
+    {
+      "file": "artifacts/figures/03_skill_mentions.png",
+      "identical": true
+    },
+    {
+      "file": "artifacts/figures/04_model_comparison.png",
+      "identical": true
+    },
+    {
+      "file": "artifacts/figures/03_skill_cooccurrence.png",
+      "identical": true
+    },
+    {
+      "file": "artifacts/figures/04_cluster_skills.png",
+      "identical": true
+    },
+    {
+      "file": "artifacts/figures/04_cluster_projection.png",
+      "identical": true
+    },
+    {
+      "file": "artifacts/figures/02_city_coverage.png",
+      "identical": true
+    },
+    {
+      "file": "artifacts/figures/02_recruitment_mix.png",
+      "identical": true
+    },
+    {
+      "file": "artifacts/figures/02_company_city.png",
+      "identical": true
+    },
+    {
+      "file": "reports/structure_metrics.json",
+      "identical": true
+    },
+    {
+      "file": "reports/text_metrics.json",
+      "identical": true
+    },
+    {
+      "file": "reports/cluster_metrics.json",
+      "identical": true
+    },
+    {
+      "file": "reports/项目分析报告.md",
+      "identical": true
+    }
+  ]
+}

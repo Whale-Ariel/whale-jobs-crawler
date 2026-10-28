@@ -1,0 +1,43 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache /var/folders/3q/wv1kfqy544v7lnd3d_75mg3w0000gn/T/jieba.cache
+Loading model cost 0.246 seconds.
+Prefix dict has been built successfully.
+/Users/luosen/WorkBuddy/JobsCrawler/data_analysis202612/.venv/lib/python3.10/site-packages/joblib/externals/loky/backend/context.py:134: UserWarning: Could not find the number of physical cores for the following reason:
+invalid literal for int() with base 10: ''
+Returning the number of logical cores instead. You can silence this warning by setting LOKY_MAX_CPU_COUNT to the number of cores you want to use.
+  warnings.warn(
+  File "/Users/luosen/WorkBuddy/JobsCrawler/data_analysis202612/.venv/lib/python3.10/site-packages/joblib/externals/loky/backend/context.py", line 264, in _count_physical_cores
+    cpu_count_physical = _count_physical_cores_darwin()
+  File "/Users/luosen/WorkBuddy/JobsCrawler/data_analysis202612/.venv/lib/python3.10/site-packages/joblib/externals/loky/backend/context.py", line 420, in _count_physical_cores_darwin
+    return int(cpu_info)
+LANG count    1138.000000
+mean        0.928272
+std         0.120824
+min         0.000000
+25%         0.924057
+50%         0.949903
+75%         0.971602
+max         1.000000
+Name: han_share, dtype: float64 KEEP 1122
+K 3 SIL 0.03464433583158881 ARI 0.8969417291597604 COUNTS [ 31 547 450]
+0 TERMS ['异常情况', '协助', '分析师', '脚本语言', '迅速', '定量分析', '定性', '比较', '至少', '解读', '深入分析', '内部'] TITLES ['商家产品数据科学实习生 - TikTok Shop', '国际电商数据分析实习生（全托管） - TikTok Shop', '国际电商数据科学实习生 - TikTok Shop']
+1 TERMS ['数据分析', '行业', '策略', '问题', '推动', '落地', '商业分析', '运营', '目标', '工具', '项目', 'ai'] TITLES ['印尼服务商业务数据分析师-TikTok Shop', '淘宝闪购-商业分析专家-用户营销', '高德-资深商业分析师-本地生活交易方向']
+2 TERMS ['优化', '产品', '实验', '评估', '模型', '数据分析', '策略', '算法', '用户', '机器学习', '问题', '方法'] TITLES ['数据分析师 - 抖音用户增长', '数据科学 - TikTok', '数据科学 - TikTok研发']
+K 4 SIL 0.036144944554587596 ARI 0.4533052353487141 COUNTS [ 30 231 394 373]
+0 TERMS ['异常情况', '协助', '分析师', '脚本语言', '迅速', '定量分析', '定性', '比较', '解读', '至少', '内部', '科学家'] TITLES ['国际电商数据分析实习生（全托管） - TikTok Shop', '国际电商数据科学实习生 - TikTok Shop', '商家产品数据科学实习生 - TikTok Shop']
+1 TERMS ['实习', '数据分析', '协助', 'sql', '问题', '专业', '熟练', '每周', 'excel', '产品', '在读', '逻辑思维'] TITLES ['聚星数据分析实习生（效果行业方向）-【商业化】', '达人数据科学实习生 - TikTok Shop', '商业分析实习生 - TikTok Shop']
+2 TERMS ['优化', '产品', '实验', '评估', '模型', '数据分析', '机器学习', '算法', '策略', '用户', '数据科学', '问题'] TITLES ['数据分析师 - 抖音用户增长', '数据科学家/算法工程师-用户增长（上海）', '数据科学 - TikTok研发']
+3 TERMS ['推动', '策略', '行业', '落地', '数据分析', '目标', '经营', '商业分析', '问题', '运营', 'ai', '工具'] TITLES ['印尼服务商业务数据分析师-TikTok Shop', '淘宝闪购-商业分析专家-用户营销', '高德-资深商业分析师-本地生活交易方向']
+K 5 SIL 0.034924745453272656 ARI 0.5962439617046761 COUNTS [ 30 421 270 113 194]
+0 TERMS ['异常情况', '协助', '分析师', '脚本语言', '迅速', '定量分析', '定性', '比较', '解读', '至少', '内部', '科学家'] TITLES ['国际电商数据分析实习生（全托管） - TikTok Shop', '国际电商数据科学实习生 - TikTok Shop', '商家产品数据科学实习生 - TikTok Shop']
+1 TERMS ['策略', '数据分析', '推动', '行业', '落地', '问题', '商业分析', '目标', '工具', '运营', '输出', '战略'] TITLES ['印尼服务商业务数据分析师-TikTok Shop', '淘宝闪购-商业分析专家-用户营销', '高德-资深商业分析师-本地生活交易方向']
+2 TERMS ['实验', '优化', '评估', '产品', '因果推断', '策略', '数据科学', '数据分析', '方法', '问题', '用户', '模型'] TITLES ['数据分析师 - 抖音用户增长', '数据科学 - TikTok', '数据科学 - TikTok研发']
+3 TERMS ['算法', '模型', '机器学习', '数据挖掘', '技术', '开发', 'spark', '系统', '用户', '海量', 'hive', '挖掘'] TITLES ['大模型数据挖掘实习生 - 模型数据工程', '大模型数据挖掘工程师 - 模型数据工程', '数据挖掘算法工程师']
+4 TERMS ['实习', '数据分析', '协助', '产品', '优化', '每周', '熟练', 'sql', '在读', '沟通', '内容', '配合'] TITLES ['数据分析实习生-抖音UGC', '聚星数据分析实习生（效果行业方向）-【商业化】', '达人数据科学实习生 - TikTok Shop']
+K 6 SIL 0.03013473431225408 ARI 0.46936448344989007 COUNTS [ 30 354  27  29 329 259]
+0 TERMS ['异常情况', '协助', '分析师', '脚本语言', '迅速', '定量分析', '定性', '比较', '解读', '至少', '内部', '科学家'] TITLES ['国际电商数据分析实习生（全托管） - TikTok Shop', '国际电商数据科学实习生 - TikTok Shop', '商家产品数据科学实习生 - TikTok Shop']
+1 TERMS ['行业', '策略', '推动', '商业分析', '落地', '数据分析', '目标', '战略', '问题', '经营', '研究', '运营'] TITLES ['印尼服务商业务数据分析师-TikTok Shop', '高德-资深商业分析师-本地生活交易方向', '淘宝闪购-商业分析专家-用户营销']
+2 TERMS ['细节', '配合', '方案', '产品', '各项', '优化', '增长', '评估', '联系', '各类', '带来', '发掘'] TITLES ['数据科学家 - 抖音直播', '资深数据分析师-抖音直播', '游戏玩法数据分析师-抖音']
+3 TERMS ['生活', '优化', '利用', '服务', '找到', '数据分析', '有效', '洞见', '具体', '监测', '执行', '推荐算法'] TITLES ['资深数据科学家（商家商品方向）-生活服务', '高级数据科学家（商家商品方向）-抖音生活服务', '数据科学家（营销方向）-抖音生活服务']
+4 TERMS ['实验', '模型', '策略', '评估', '产品', '优化', '用户', '问题', '数据分析', '方法', 'ai', '因果推断'] TITLES ['数据科学 - TikTok研发', '数据分析师 - 抖音用户增长', '数据分析专家（MaaS） - 火山方舟']
+5 TERMS ['实习', '数据分析', '协助', 'sql', '产品', '专业', '熟练', '沟通', '问题', '优化', '内容', '每周'] TITLES ['达人数据科学实习生 - TikTok Shop', '聚星数据分析实习生（效果行业方向）-【商业化】', '数据分析实习生-抖音UGC']

@@ -1,0 +1,67 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache /var/folders/3q/wv1kfqy544v7lnd3d_75mg3w0000gn/T/jieba.cache
+Loading model cost 0.266 seconds.
+Prefix dict has been built successfully.
+/Users/luosen/WorkBuddy/JobsCrawler/data_analysis202612/.venv/lib/python3.10/site-packages/joblib/externals/loky/backend/context.py:134: UserWarning: Could not find the number of physical cores for the following reason:
+invalid literal for int() with base 10: ''
+Returning the number of logical cores instead. You can silence this warning by setting LOKY_MAX_CPU_COUNT to the number of cores you want to use.
+  warnings.warn(
+  File "/Users/luosen/WorkBuddy/JobsCrawler/data_analysis202612/.venv/lib/python3.10/site-packages/joblib/externals/loky/backend/context.py", line 264, in _count_physical_cores
+    cpu_count_physical = _count_physical_cores_darwin()
+  File "/Users/luosen/WorkBuddy/JobsCrawler/data_analysis202612/.venv/lib/python3.10/site-packages/joblib/externals/loky/backend/context.py", line 420, in _count_physical_cores_darwin
+    return int(cpu_info)
+/Users/luosen/WorkBuddy/JobsCrawler/data_analysis202612/.venv/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/Users/luosen/WorkBuddy/JobsCrawler/data_analysis202612/.venv/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/Users/luosen/WorkBuddy/JobsCrawler/data_analysis202612/.venv/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/Users/luosen/WorkBuddy/JobsCrawler/data_analysis202612/.venv/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/Users/luosen/WorkBuddy/JobsCrawler/data_analysis202612/.venv/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/Users/luosen/WorkBuddy/JobsCrawler/data_analysis202612/.venv/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/Users/luosen/WorkBuddy/JobsCrawler/data_analysis202612/.venv/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/Users/luosen/WorkBuddy/JobsCrawler/data_analysis202612/.venv/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/Users/luosen/WorkBuddy/JobsCrawler/data_analysis202612/.venv/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/Users/luosen/WorkBuddy/JobsCrawler/data_analysis202612/.venv/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: divide by zero encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/Users/luosen/WorkBuddy/JobsCrawler/data_analysis202612/.venv/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: overflow encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+/Users/luosen/WorkBuddy/JobsCrawler/data_analysis202612/.venv/lib/python3.10/site-packages/sklearn/cluster/_kmeans.py:237: RuntimeWarning: invalid value encountered in matmul
+  current_pot = closest_dist_sq @ sample_weight
+LANG count    1138.000000
+mean        0.928272
+std         0.120824
+min         0.000000
+25%         0.924057
+50%         0.949903
+75%         0.971602
+max         1.000000
+Name: han_share, dtype: float64 KEEP 1122
+K 3 SIL 0.037933602464769955 ARI 0.7886667669505363 COUNTS [514 462  56]
+0 TERMS ['数据分析', '策略', '行业', '推动', '问题', '商业分析', '运营', '落地', '目标', '工具', 'ai', '监控'] TITLES ['淘宝闪购-商业分析专家-用户营销', '高德-资深商业分析师-本地生活交易方向', '印尼服务商业务数据分析师-TikTok Shop']
+1 TERMS ['产品', '优化', '模型', '用户', '数据分析', '实验', '评估', '算法', '策略', '机器学习', '技术', '问题'] TITLES ['数据科学 - TikTok', '数据科学（安全产品方向）实习生-TikTok', '数据科学实习生 - TikTok']
+2 TERMS ['全球', '面向', '商家', '实习', '机会', '日常', '美国', '英国', '印尼', '全世界', '墨西哥', '法国'] TITLES ['商家产品数据科学实习生 - TikTok Shop', '国际电商数据科学实习生 - TikTok Shop', '国际电商数据分析实习生（全托管） - TikTok Shop']
+K 4 SIL 0.044769861915202276 ARI 0.7969804731275076 COUNTS [ 56 480  51 445]
+0 TERMS ['全球', '面向', '商家', '实习', '机会', '日常', '美国', '英国', '印尼', '全世界', '墨西哥', '法国'] TITLES ['商家产品数据科学实习生 - TikTok Shop', '国际电商数据科学实习生 - TikTok Shop', '国际电商数据分析实习生（全托管） - TikTok Shop']
+1 TERMS ['数据分析', '行业', '策略', '问题', '商业分析', '推动', '目标', '落地', '运营', '工具', '商业', '监控'] TITLES ['印尼服务商业务数据分析师-TikTok Shop', '淘宝闪购-商业分析专家-用户营销', '淘天集团-数据分析专家-天猫']
+2 TERMS ['全球', '一个', '巴黎', '柏林', '迪拜', '都柏林', '纽约', '办公室', '雅加达', '洛杉矶', '瞬间', '首尔'] TITLES ['数据科学实习生-TikTok', '数据科学（搜索） - TikTok', '数据科学实习生（增长）-TikTok']
+3 TERMS ['产品', '优化', '模型', '用户', '数据分析', '策略', '实验', '评估', '算法', 'ai', '机器学习', '问题'] TITLES ['数据科学家（多媒体性能）-TikTok', '数据分析师 - 抖音用户增长', '数据科学家/算法工程师-用户增长（上海）']
+K 5 SIL 0.049490073981772895 ARI 0.510776279876902 COUNTS [152 399  56  51 374]
+0 TERMS ['实习', '协助', '用户', '数据分析', '每周', '产品', '内容', '熟练', 'sql', '提供', '在读', '项目'] TITLES ['聚星数据分析实习生（效果行业方向）-【商业化】', '数据分析实习生（广告方向）-【生活服务】', '数据分析实习生-【生活服务】']
+1 TERMS ['数据分析', '策略', '推动', '行业', '落地', '商业分析', '问题', '目标', '运营', '工具', '输出', '经营'] TITLES ['印尼服务商业务数据分析师-TikTok Shop', '淘宝闪购-商业分析专家-用户营销', '高德-资深商业分析师-本地生活交易方向']
+2 TERMS ['全球', '面向', '商家', '实习', '机会', '日常', '美国', '英国', '印尼', '全世界', '墨西哥', '法国'] TITLES ['商家产品数据科学实习生 - TikTok Shop', '国际电商数据科学实习生 - TikTok Shop', '国际电商数据分析实习生（全托管） - TikTok Shop']
+3 TERMS ['全球', '一个', '巴黎', '柏林', '迪拜', '都柏林', '纽约', '办公室', '雅加达', '洛杉矶', '瞬间', '首尔'] TITLES ['数据科学实习生-TikTok', '数据科学（搜索） - TikTok', '数据科学实习生（增长）-TikTok']
+4 TERMS ['模型', '优化', '产品', '实验', '算法', '数据分析', '评估', '用户', '策略', '机器学习', '技术', '提升'] TITLES ['数据科学家（多媒体性能）-TikTok', '多媒体数据科学家-多媒体技术', '数据科学 - 抖音']
+K 6 SIL 0.05089135309601327 ARI 0.6436354463232616 COUNTS [328 251  56  51  47 299]
+0 TERMS ['模型', '算法', '实验', '产品', '用户', '优化', '机器学习', '策略', '技术', 'ai', '问题', '数据分析'] TITLES ['数据科学 - 抖音', '数据科学家（多媒体性能）-TikTok', '数据科学家 - TikTok Shop']
+1 TERMS ['策略', '行业', '推动', '经营', '目标', '战略', '落地', '商业分析', '研究', '制定', '输出', '经营分析'] TITLES ['印尼服务商业务数据分析师-TikTok Shop', '国际化商业分析专家（中台 Console）', '淘宝闪购-商业分析专家-用户营销']
+2 TERMS ['全球', '面向', '商家', '实习', '机会', '日常', '美国', '英国', '印尼', '全世界', '墨西哥', '法国'] TITLES ['商家产品数据科学实习生 - TikTok Shop', '国际电商数据科学实习生 - TikTok Shop', '国际电商数据分析实习生（全托管） - TikTok Shop']
+3 TERMS ['全球', '一个', '巴黎', '柏林', '迪拜', '都柏林', '纽约', '办公室', '雅加达', '洛杉矶', '瞬间', '首尔'] TITLES ['数据科学实习生-TikTok', '数据科学（搜索） - TikTok', '数据科学实习生（增长）-TikTok']
+4 TERMS ['优化', '产品', '评估', '方案', '给出', '增长', '执行', '之间', '数据分析', '活动', '带来', '细节'] TITLES ['数据科学家（货架方向）-抖音生活服务', '资深数据分析师-抖音直播', '数据科学家（货架方向）-抖音生活服务']
+5 TERMS ['数据分析', '实习', '问题', '熟练', '产品', '运营', 'sql', '监控', '策略', '工具', '协助', '沟通'] TITLES ['数据分析实习生', '商业分析师（信息流产品方向）-大众点评', '高级商业分析师-外卖广告业务']
