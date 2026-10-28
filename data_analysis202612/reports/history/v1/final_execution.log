@@ -1,0 +1,13 @@
+RUN 01_数据分析基础与JSON结构化.ipynb
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+PASS {"notebook": "01_数据分析基础与JSON结构化.ipynb", "seconds": 11.28, "code_cells": 8, "errors": 0, "embedded_images": 0, "html": "01_数据分析基础与JSON结构化.html"}
+RUN 02_招聘结构与可视化分析.ipynb
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+PASS {"notebook": "02_招聘结构与可视化分析.ipynb", "seconds": 3.54, "code_cells": 8, "errors": 0, "embedded_images": 5, "html": "02_招聘结构与可视化分析.html"}
+RUN 03_职位文本分析与技能特征.ipynb
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+PASS {"notebook": "03_职位文本分析与技能特征.ipynb", "seconds": 12.9, "code_cells": 8, "errors": 0, "embedded_images": 3, "html": "03_职位文本分析与技能特征.html"}
+RUN 04_岗位聚类与项目交付.ipynb
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+PASS {"notebook": "04_岗位聚类与项目交付.ipynb", "seconds": 6.48, "code_cells": 7, "errors": 0, "embedded_images": 3, "html": "04_岗位聚类与项目交付.html"}
+四本Notebook全部执行成功。

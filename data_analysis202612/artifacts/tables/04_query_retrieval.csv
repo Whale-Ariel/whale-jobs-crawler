@@ -1,0 +1,9 @@
+﻿job_key,company_name,title_clean,city_name,job_url,cosine_similarity
+12955,字节跳动,数据科学 - TikTok研发,上海,https://jobs.bytedance.com/campus/position/7664482237097806133/detail,0.2629693349835188
+2129,字节跳动,数据科学家（多媒体性能）-TikTok,深圳,https://jobs.bytedance.com/experienced/position/7517185802675063048/detail,0.25899953614279
+13304,字节跳动,数据科学（推荐方向）实习生 - TikTok Shop,北京,https://jobs.bytedance.com/campus/position/7670896775846643973/detail,0.25340903279722427
+34799,小红书,多媒体数据科学家-多媒体技术,北京市、上海市,https://job.xiaohongshu.com/social/position/21410,0.24488316886688202
+33751,哔哩哔哩,数据科学家（用增策略）,上海,https://jobs.bilibili.com/social/positions/25739,0.24364214805191559
+19324,阿里巴巴,淘天集团-数据科学专家-搜推方向,杭州,https://talent.taotian.com/off-campus/position-detail?positionId=100016820003,0.22366236904836467
+37066,滴滴,数据科学中台部-数据分析实习生,北京市,https://app.mokahr.com/apply/didiglobal/6222#/job/dfdf779b-ba53-46d9-a766-9dec030747b6,0.21464231534851042
+13685,字节跳动,用户增长数据分析师 - TikTok,北京,https://jobs.bytedance.com/campus/position/7668657994767419701/detail,0.2144446815076102

@@ -79,7 +79,7 @@ def launch(playwright, headed):
 
 
 class Session:
-    """在职位页里调用官网自己的请求封装。遇到 54001 就换一个浏览器会话。"""
+    """在职位页里调用官网自己的请求封装。54001 时留在当前窗口，等人完成验证。"""
 
     def __init__(self, playwright, headed):
         self.playwright = playwright
@@ -112,19 +112,23 @@ class Session:
             self.page = None
 
     def call(self, expression, argument):
-        last = None
-        for attempt in range(6):
+        announced = False
+        deadline = None
+        while True:
             try:
                 return self.page.evaluate(expression, argument)
             except Exception as error:
-                last = error
-                if '54001' not in str(error):
+                message = str(error)
+                if '54001' not in message:
                     raise
-                wait = 8 * (attempt + 1)
-                print(f'触发 54001，{wait} 秒后换浏览器会话', flush=True)
-                time.sleep(wait)
-                self.open()
-        raise last
+                if not announced:
+                    print('页面要求验证。请在脚本打开的浏览器窗口里完成验证，完成后会自动继续。', flush=True)
+                    self.page.bring_to_front()
+                    announced = True
+                    deadline = time.time() + 600
+                if time.time() > deadline:
+                    raise RuntimeError('等待验证超过 10 分钟') from error
+                time.sleep(5)
 
 
 def crawl(max_pages=None, max_details=None, headed=True, output=None):

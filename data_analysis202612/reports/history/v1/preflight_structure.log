@@ -1,0 +1,164 @@
+CELL 1
+课程目录： /Users/luosen/WorkBuddy/JobsCrawler/data_analysis202612
+Python： 3.10.16
+CELL 3
+['数据分析师', '商业分析师']
+   title city  years
+0  数据分析师   北京    2.0
+1  算法实习生   上海    NaN
+2  商业分析师   北京    3.0
+  city  岗位数  已知年限均值
+0   上海    1     NaN
+1   北京    2     2.5
+   title city
+0  数据分析师   北京
+2  商业分析师   北京
+CELL 5
+年限缺失数： 1
+   title city  years
+0  数据分析师   北京    2.0
+2  商业分析师   北京    3.0
+      size  count
+city             
+上海       1      0
+北京       2      2
+CELL 7
+source                   /Users/luosen/WorkBuddy/JobsCrawler/state/pending_queue.db
+snapshot           /Users/luosen/WorkBuddy/JobsCrawler/data_analysis202612/data/...
+created_at                                         2026-10-28T17:07:40.124351+08:00
+method                    SQLite backup API; source mode=ro; includes committed WAL
+sha256             29efa641bd5db92362ae97b75e226b994e5148a2bfe8cb442e397c0860f413ac
+size_bytes                                                                335814656
+schema_version                                                                    5
+integrity_check                                                                  ok
+table_rows         {'pending_jobs': 40661, 'sqlite_sequence': 1, 'job_fingerprin...
+Name: 数据接收台账, dtype: object
+                  name  \
+0         pending_jobs   
+1      sqlite_sequence   
+2     job_fingerprints   
+3    job_organizations   
+4            api_cache   
+5  recruitment_batches   
+
+                                                                sql  
+0  CREATE TABLE pending_jobs (\n                seq INTEGER PRIM...  
+1                            CREATE TABLE sqlite_sequence(name,seq)  
+2  CREATE TABLE job_fingerprints (\n                source TEXT,...  
+3  CREATE TABLE job_organizations (\n                source TEXT...  
+4  CREATE TABLE api_cache(cache_key TEXT PRIMARY KEY,version TEX...  
+5  CREATE TABLE recruitment_batches(source TEXT,batch_id TEXT,re...  
+快照职位数： 40661 ；原始列数： 9
+CELL 9
+  job_key     source   portal                       title city_name  \
+0       1  bytedance  society     用户产品经理（造世界方向） - 抖音社交与互动        北京   
+1       2  bytedance  society       游戏资深3D场景模型设计师 - 心光工作室        杭州   
+2       3  bytedance  society   游戏音乐设计师（PVE射击项目） - 研发支持中心        上海   
+3       4  bytedance  society   芯片综合/STA工程师（存算与AI） - 芯片研发        北京   
+4       5  bytedance  society  东南亚跨境IP及主题活动运营-TikTok Shop        上海   
+
+  recruitment_type  
+0          society  
+1          society  
+2          society  
+3          society  
+4          society  
+payload 顶层字段数： 48 ；隔离记录数： 0
+CELL 11
+    locations  level    关联数
+60         北京   城市候选  19363
+16         上海   城市候选  13076
+196        杭州   城市候选   5892
+258        深圳   城市候选   4952
+150        广州   城市候选   1510
+170        成都   城市候选    886
+73         合肥   城市候选    621
+322        西安   城市候选    311
+205        武汉   城市候选    298
+144       广东省  省级或地区    213
+63         南京   城市候选    173
+352        重庆   城市候选    165
+21         东莞   城市候选    160
+178       新加坡   城市候选    132
+104        天津   城市候选    122
+310        苏州   城市候选    117
+347        郑州   城市候选    111
+69         厦门   城市候选     91
+362        长沙   城市候选     90
+58        利雅得   城市候选     90
+人工核验候选：
+    locations  level  关联数
+144       广东省  省级或地区  213
+126       山东省  省级或地区   49
+210       江苏省  省级或地区   48
+382   香港特别行政区  区县待核验   45
+335       辽宁省  省级或地区   40
+263       湖北省  省级或地区   39
+91        四川省  省级或地区   39
+218       江西省  省级或地区   35
+246       浙江省  省级或地区   32
+229       河南省  省级或地区   30
+224       河北省  省级或地区   26
+293       福建省  省级或地区   25
+146    广东省-深圳    待核验   25
+249       海南省  省级或地区   25
+115       安徽省  省级或地区   22
+180  新疆维吾尔自治区  省级或地区   20
+369       陕西省  省级或地区   19
+131       山西省  省级或地区   16
+92     四川省-成都    待核验   15
+265       湖南省  省级或地区   14
+CELL 13
+                岗位数  标题缺失率  文本全缺失率  有城市候选率  学历字段有值率  发布日期可解析率
+company_name                                                 
+OPPO            273    0.0   0.000   0.996    0.546     1.000
+京东             2025    0.0   0.000   0.623    0.000     1.000
+哔哩哔哩            872    0.0   0.001   1.000    0.000     1.000
+字节跳动          17053    0.0   0.000   1.000    0.000     1.000
+小红书            1299    0.0   0.000   0.999    0.000     1.000
+快手             2563    0.0   0.000   1.000    0.000     0.101
+拼多多             767    0.0   0.000   0.986    0.000     1.000
+携程              534    0.0   0.000   0.957    0.000     1.000
+滴滴             1808    0.0   0.000   0.928    0.320     1.000
+百度             1058    0.0   0.000   0.990    0.004     1.000
+科大讯飞            841    0.0   0.000   0.993    0.000     1.000
+米哈游             946    0.0   0.002   1.000    0.000     0.000
+网易              398    0.0   0.000   1.000    1.000     1.000
+美团             3221    0.0   0.000   0.992    0.000     0.000
+腾讯             2259    0.0   0.000   1.000    0.000     1.000
+阿里巴巴           4744    0.0   0.000   1.000    0.774     1.000
+raw_rows                                                                                     40661
+clean_rows                                                                                   40661
+rejected_json_rows                                                                               0
+duplicate_identity_rows                                                                          0
+identity_mismatches                    {'source': 0, 'job_id': 0, 'batch_id': 0, 'source_site': 0}
+title_missing_rows                                                                               0
+text_missing_rows                                                                                3
+no_city_candidate_rows                                                                         972
+invalid_publish_time_rows                                                                     6470
+location_associations_by_level              {'城市候选': 50430, '省级或地区': 790, '待核验': 176, '区县待核验': 75}
+actions                           [隔离坏JSON, 验证复合身份键, 原文保留并新增清洗列, 城市别名映射与地点层级标记, 保留多城市, 薪资学历不填0,...
+dtype: object
+CELL 15
+        source      title_clean  \
+28908  meituan       进场零售-商场CKA   
+29277  meituan        营销顾问/商务拓展   
+28526  meituan  医药健康-城市直营中心-SMB   
+28959  meituan    火石-酒店项目-大客户销售   
+29372  meituan          门店管理储备岗   
+
+                                                              city_name  \
+28908  广州市、武汉市、安庆市、亳州市、长沙市、常州市、池州市、滁州市、鄂州市、恩施土家族苗族自治州、抚州市、阜阳市、赣州市、贵阳...   
+29277  厦门市、福州市、杭州市、无锡市、宁波市、北京市、温州市、苏州市、天津市、惠州市、石家庄市、上海市、成都市、长春市、珠海市、...   
+28526  北京市、呼和浩特市、沈阳市、大连市、哈尔滨市、南京市、扬州市、杭州市、宁波市、温州市、嘉兴市、绍兴市、金华市、芜湖市、福州...   
+28959  北京市、天津市、沈阳市、大连市、上海市、南京市、南通市、常州市、无锡市、苏州市、杭州市、宁波市、嘉兴市、合肥市、福州市、厦...   
+29372  杭州市、宁波市、无锡市、北京市、苏州市、天津市、上海市、石家庄市、成都市、珠海市、济南市、青岛市、广州市、深圳市、武汉市、...   
+
+                                                                 cities  
+28908  [广州, 武汉, 安庆, 亳州, 长沙, 常州, 池州, 滁州, 鄂州, 抚州, 阜阳, 赣州, 贵阳, 杭州, 合肥, ...  
+29277  [厦门, 福州, 杭州, 无锡, 宁波, 北京, 温州, 苏州, 天津, 惠州, 石家庄, 上海, 成都, 长春, 珠海,...  
+28526  [北京, 呼和浩特, 沈阳, 大连, 哈尔滨, 南京, 扬州, 杭州, 宁波, 温州, 嘉兴, 绍兴, 金华, 芜湖, 福...  
+28959  [北京, 天津, 沈阳, 大连, 上海, 南京, 南通, 常州, 无锡, 苏州, 杭州, 宁波, 嘉兴, 合肥, 福州, ...  
+29372  [杭州, 宁波, 无锡, 北京, 苏州, 天津, 上海, 石家庄, 成都, 珠海, 济南, 青岛, 广州, 深圳, 武汉,...  
+第1课完成： /Users/luosen/WorkBuddy/JobsCrawler/data_analysis202612/data/processed/jobs_clean.parquet
+STRUCTURE_PREFLIGHT_PASS
