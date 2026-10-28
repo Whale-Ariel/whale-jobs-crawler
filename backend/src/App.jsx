@@ -87,7 +87,7 @@ function Shell() {
     >
       <Routes>
         <Route path="/welcome" element={<Welcome />} />
-        {/* 图表分析页，具体图表后续再接入 */}
+        {/* 图表分析：条形图、百分比堆叠条形图、百分比堆叠柱状图 */}
         <Route path="/charts" element={<Charts />} />
         <Route path="/list/table-list" element={<SourceHome />} />
         <Route path="/list" element={<SourceHome />} />
