@@ -160,5 +160,5 @@ app.use(vite.middlewares);
 
 const port = 8001;
 app.listen(port, '127.0.0.1', () => {
-  console.log(`思佳职位检索器 http://127.0.0.1:${port}/user/login`);
+  console.log(`鲸鱼职位检索助手 http://127.0.0.1:${port}/user/login`);
 });

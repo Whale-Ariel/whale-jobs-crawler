@@ -50,7 +50,7 @@ function Shell() {
   }
   return (
     <ProLayout
-      title="思佳职位检索器"
+      title="鲸鱼职位检索助手"
       logo="/logo.svg"
       layout="mix"
       fixSiderbar

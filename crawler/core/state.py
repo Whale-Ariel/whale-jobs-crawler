@@ -3,7 +3,11 @@
 import json
 import os
 import tempfile
-import fcntl
+try:
+    import fcntl
+except ImportError:
+    fcntl = None  # Windows 没有 fcntl，进程锁改用 msvcrt
+    import msvcrt
 from contextlib import contextmanager
 from datetime import datetime
 
@@ -79,11 +83,24 @@ def atomic_json(path, data):
 def channel_lock(namespace):
     os.makedirs(paths.STATE_DIR, exist_ok=True)
     with open(os.path.join(paths.STATE_DIR, namespace+'.lock'), 'a') as f:
-        try:
-            fcntl.flock(f, fcntl.LOCK_EX | fcntl.LOCK_NB)
-        except BlockingIOError:
-            raise RuntimeError(f'{namespace} 已有抓取进程运行') from None
-        try:
-            yield
-        finally:
-            fcntl.flock(f, fcntl.LOCK_UN)
+        if fcntl is not None:
+            try:
+                fcntl.flock(f, fcntl.LOCK_EX | fcntl.LOCK_NB)
+            except BlockingIOError:
+                raise RuntimeError(f'{namespace} 已有抓取进程运行') from None
+            try:
+                yield
+            finally:
+                fcntl.flock(f, fcntl.LOCK_UN)
+        else:
+            # Windows：锁定文件首字节实现进程互斥（允许锁定 EOF 之后区域）
+            try:
+                f.seek(0)
+                msvcrt.locking(f.fileno(), msvcrt.LK_NBLCK, 1)
+            except OSError:
+                raise RuntimeError(f'{namespace} 已有抓取进程运行') from None
+            try:
+                yield
+            finally:
+                f.seek(0)
+                msvcrt.locking(f.fileno(), msvcrt.LK_UNLCK, 1)

@@ -30,7 +30,7 @@ export default function Login() {
       <div style={{ flex: 1, padding: '32px 0' }}>
         <LoginForm
           logo={<img alt="logo" src="/logo.svg" />}
-          title="思佳职位检索器"
+          title="鲸鱼职位检索助手"
           subTitle="用 AI 帮助你找到更适合你的好职位"
           contentStyle={{ minWidth: 280, maxWidth: '75vw' }}
           initialValues={{ autoLogin: true }}
@@ -77,7 +77,7 @@ export default function Login() {
         </LoginForm>
       </div>
       <div style={{ padding: 16, textAlign: 'center', color: 'rgba(0,0,0,0.45)' }}>
-        思佳职位检索器
+        鲸鱼职位检索助手
       </div>
     </div>
   );

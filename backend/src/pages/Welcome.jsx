@@ -18,7 +18,7 @@ export default function Welcome() {
     api('/api/readme').then((result) => setContent(result.content || ''));
   }, []);
   return (
-    <PageContainer title="欢迎使用思佳职位检索器">
+    <PageContainer title="欢迎使用鲸鱼职位检索助手">
       <div style={{ display: 'flex', gap: 24, alignItems: 'flex-start', flexWrap: 'wrap' }}>
         <Card style={{ flex: '2 1 640px', minWidth: 0 }} className="readme">
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
