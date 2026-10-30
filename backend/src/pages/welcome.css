@@ -1,3 +1,15 @@
+/* ===== README 渲染（保留本地样式血统） ===== */
+/* markdown 是服务端返回的，图片/表格按内容自然宽度渲染会撑破页面，这里限宽 */
+.readme {
+  overflow-wrap: break-word;
+}
+.readme img {
+  max-width: 100%;
+  height: auto;
+}
+.readme td {
+  word-break: break-word;
+}
 .readme table {
   border-collapse: collapse;
   width: 100%;
@@ -16,6 +28,141 @@
   border-radius: 8px;
 }
 .readme code {
-  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 13px;
+}
+
+/* ===== 首屏卡 ===== */
+.hero-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: center;
+}
+.hero-left {
+  flex: 14 1 320px;
+  min-width: 0;
+}
+.hero-right {
+  flex: 0 0 420px;
+  min-width: 0;
+}
+@media (max-width: 991px) {
+  .hero-right {
+    flex: 1 1 100%;
+  }
+}
+.hero-tag {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 3px 8px;
+  font-size: 12px;
+  line-height: 18px;
+}
+.cmd-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.cmd-copy {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-family: inherit;
+}
+.cmd-copy:hover {
+  opacity: 0.8;
+}
+
+/* ===== 区块卡头（左右两端对齐） ===== */
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+/* ===== 指标卡：hover 只浮起（antd hoverable），箭头变主色 ===== */
+.stat-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.stat-arrow {
+  color: #595959;
+  transition: color 0.2s;
+}
+.stat-card:hover .stat-arrow,
+.guide-card:hover .stat-arrow {
+  color: #1677ff;
+}
+.stat-card:focus-visible,
+.guide-card:focus-visible {
+  border-color: #1677ff;
+  outline: none;
+}
+
+/* ===== 公司磁贴：hover 浮起 + 描边变蓝 + 底色转白（主路径，信号更多） ===== */
+.company-tile {
+  height: 58px;
+  padding: 9px 12px;
+  border-radius: 6px;
+  background: #fafafa;
+  border: 1px solid #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: border-color 0.2s, background 0.2s;
+}
+.company-tile:hover {
+  border-color: #1677ff;
+  background: #fff;
+}
+.company-tile:focus-visible {
+  outline: none;
+  border-color: #1677ff;
+}
+
+/* ===== 底部双栏：README + 引导卡（窄屏整行下沉） ===== */
+.bottom-row .readme-col {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.bottom-row .guide-col {
+  flex: 0 0 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+@media (max-width: 991px) {
+  .bottom-row .readme-col,
+  .bottom-row .guide-col {
+    flex: 1 1 100%;
+  }
+}
+.guide-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+/* ===== 页内滚动的落点反馈 ===== */
+.flash {
+  animation: flash-bg 1s ease-out;
+}
+@keyframes flash-bg {
+  from {
+    background: #e6f4ff;
+    box-shadow: 0 0 0 8px #e6f4ff;
+  }
+  to {
+    background: transparent;
+    box-shadow: 0 0 0 8px transparent;
+  }
 }
