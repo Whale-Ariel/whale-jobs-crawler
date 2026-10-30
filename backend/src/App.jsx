@@ -8,6 +8,7 @@ import Charts from './pages/Charts';
 import JobTable from './pages/JobTable';
 import Login from './pages/Login';
 import Welcome from './pages/Welcome';
+import Ai from './pages/Ai';
 
 function SourceHome() {
   const navigate = useNavigate();
@@ -42,6 +43,7 @@ function Shell() {
       },
       // 与「欢迎」「查询表格」同级。ProLayout 只认 children，这里不能改成 routes。
       { path: '/charts', name: '图表分析' },
+      { path: '/ai', name: 'AI 助手' },
     ],
   };
   if (!getToken()) {
@@ -89,6 +91,7 @@ function Shell() {
         <Route path="/welcome" element={<Welcome />} />
         {/* 图表分析：条形图、百分比堆叠条形图、百分比堆叠柱状图 */}
         <Route path="/charts" element={<Charts />} />
+        <Route path="/ai" element={<Ai />} />
         <Route path="/list/table-list" element={<SourceHome />} />
         <Route path="/list" element={<SourceHome />} />
         <Route path="/list/:source" element={<JobTable />} />

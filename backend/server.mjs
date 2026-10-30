@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 import express from 'express';
 import { createServer as createViteServer } from 'vite';
 import { buildChartData } from './chart-data.mjs';
+import { matchResume, parseQuery } from './ai.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(root, '..');
@@ -34,6 +35,15 @@ const COMPANIES = {
 
 const tokens = new Set();
 const db = new DatabaseSync(dbPath, { readOnly: true });
+
+// 大模型是可选的：不配置就退回本地规则解析，AI 层照样可用。
+const LLM_CONFIG = process.env.OPENAI_API_KEY
+  ? {
+      apiKey: process.env.OPENAI_API_KEY,
+      baseURL: process.env.OPENAI_BASE_URL || 'https://api.openai.com/v1',
+      model: process.env.OPENAI_MODEL || 'gpt-4o-mini',
+    }
+  : null;
 
 function like(value) {
   return `%${value.replace(/[\\%_]/g, (char) => `\\${char}`)}%`;
@@ -119,29 +129,78 @@ api.get('/charts', requireUser, (_req, res) => {
   res.json({ success: true, ...chartCache });
 });
 
-api.get('/jobs', requireUser, (req, res) => {
-  const current = Math.max(1, Number.parseInt(req.query.current, 10) || 1);
-  const filters = [
-    ['title', `json_extract(payload, '$.title') LIKE ? ESCAPE '\\'`, like],
-    ['source', 'source = ?', (value) => value],
-    ['portal', 'portal = ?', (value) => value],
-    ['city_name', `json_extract(payload, '$.city_name') LIKE ? ESCAPE '\\'`, like],
-  ];
+function queryJobs({ current = 1, title = '', source = '', portal = '', city_name = '', pageSize = PAGE_SIZE }) {
   const where = [];
   const params = [];
-  for (const [key, sql, bind] of filters) {
-    const value = String(req.query[key] || '').trim();
-    if (!value) continue;
-    where.push(sql);
-    params.push(bind(value));
+  if (title) {
+    where.push(`json_extract(payload, '$.title') LIKE ? ESCAPE '\\'`);
+    params.push(like(title));
+  }
+  if (source) {
+    where.push('source = ?');
+    params.push(source);
+  }
+  if (portal) {
+    where.push('portal = ?');
+    params.push(portal);
+  }
+  // 城市可能多个（自然语言里「北京、上海」），用 OR 拼接到同一字段上
+  const cityTokens = String(city_name || '').trim().split(/\s+/).filter(Boolean);
+  if (cityTokens.length) {
+    const clauses = cityTokens.map(() => `json_extract(payload, '$.city_name') LIKE ? ESCAPE '\\'`);
+    where.push(`(${clauses.join(' OR ')})`);
+    params.push(...cityTokens.map(like));
   }
   const clause = where.length ? `WHERE ${where.join(' AND ')}` : '';
   const total = db.prepare(`SELECT COUNT(*) AS n FROM pending_jobs ${clause}`).get(...params).n;
   const rows = db.prepare(
     `SELECT seq, source, portal, batch_id, source_site, job_id, payload, enqueued_at, version
      FROM pending_jobs ${clause} ORDER BY seq DESC LIMIT ? OFFSET ?`,
-  ).all(...params, PAGE_SIZE, (current - 1) * PAGE_SIZE);
-  res.json({ success: true, total, pageSize: PAGE_SIZE, data: rows.map(toItem) });
+  ).all(...params, pageSize, (current - 1) * pageSize);
+  return { data: rows.map(toItem), total, pageSize };
+}
+
+api.get('/jobs', requireUser, (req, res) => {
+  const current = Math.max(1, Number.parseInt(req.query.current, 10) || 1);
+  const result = queryJobs({
+    current,
+    title: String(req.query.title || '').trim(),
+    source: String(req.query.source || '').trim(),
+    portal: String(req.query.portal || '').trim(),
+    city_name: String(req.query.city_name || '').trim(),
+  });
+  res.json({ success: true, ...result });
+});
+
+// AI 层：简历匹配（本地信号打分，无需联网）
+api.post('/ai/match', requireUser, (req, res) => {
+  const text = String(req.body?.text || '').trim();
+  const limit = Math.min(100, Math.max(1, Number.parseInt(req.body?.limit, 10) || 30));
+  if (!text) {
+    res.json({ success: false, errorMessage: '请粘贴或上传简历内容' });
+    return;
+  }
+  const result = matchResume(db, COMPANIES, text, { limit });
+  res.json({ success: true, ...result });
+});
+
+// AI 层：自然语言查询（大模型可选，缺省走本地规则解析）
+api.post('/ai/query', requireUser, async (req, res) => {
+  const text = String(req.body?.text || '').trim();
+  if (!text) {
+    res.json({ success: false, errorMessage: '请输入查询问题' });
+    return;
+  }
+  const { filters, understanding, llm } = await parseQuery(text, { companies: COMPANIES, llmConfig: LLM_CONFIG });
+  const result = queryJobs({
+    current: 1,
+    title: filters.title || '',
+    source: filters.source || '',
+    portal: filters.portal || '',
+    city_name: filters.city_name || '',
+    pageSize: 50,
+  });
+  res.json({ success: true, understanding, llm, filters, ...result });
 });
 
 function cryptoToken() {

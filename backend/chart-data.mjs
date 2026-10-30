@@ -1,7 +1,7 @@
 // 图表口径与课程一致：一条记录是一条职位发布，不是招聘人数。
 // 城市按「覆盖」计，同一职位可以进入多个城市。薪资字段全空，这里不产出薪资序列。
 
-const PORTALS = {
+export const PORTALS = {
   society: '社招',
   campus: '校招',
   internship: '实习',
@@ -32,7 +32,7 @@ const DEGREE_LABELS = {
 
 const DEGREE_ORDER = ['博士', '硕士及以上', '硕士', '本科及以上', '本科', '大专', '不限', '其他'];
 
-const CITY_ALIASES = {
+export const CITY_ALIASES = {
   beijing: '北京',
   shanghai: '上海',
   shenzhen: '深圳',
@@ -75,7 +75,7 @@ const CITY_ALIASES = {
 const PROVINCES = new Set('河北 山西 辽宁 吉林 黑龙江 江苏 浙江 安徽 福建 江西 山东 河南 湖北 湖南 广东 海南 四川 贵州 云南 陕西 甘肃 青海 台湾 内蒙古 广西 宁夏 新疆 西藏'.split(' '));
 const BROAD_PLACES = new Set(['全国', '中国', '海外', '不限', '远程', '其他', '全国各地', '全球', 'China', 'Remote', '中国大陆']);
 
-const SKILLS = [
+export const SKILLS = [
   ['Python', /(?<![a-z0-9_])python(?![a-z0-9_])/i],
   ['SQL', /(?<![a-z0-9_])(?:sql|mysql|postgresql|postgres|sql\s*server|hive\s*sql)(?![a-z0-9_])/i],
   ['Java', /(?<![a-z0-9_])java(?![a-z0-9_])/i],
@@ -98,7 +98,7 @@ const SKILLS = [
 
 const FOCUS = /数据分析|数据科学|数据挖掘|商业分析|商业智能|\bdata\s+(?:analyst|scientist)\b|business\s+intelligence/i;
 
-function cleanText(value) {
+export function cleanText(value) {
   if (typeof value !== 'string') return '';
   return value
     .replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi, ' ')
@@ -119,7 +119,7 @@ function locationLevel(label) {
   return '城市候选';
 }
 
-function cityCandidates(payload) {
+export function cityCandidates(payload) {
   const cityList = payload.city_list;
   const values = Array.isArray(cityList) && cityList.length ? cityList : [payload.city_name];
   const locations = [];
